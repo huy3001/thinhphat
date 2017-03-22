@@ -1,0 +1,972 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GT3Themes WP\n"
+"POT-Creation-Date: 2016-02-29 10:34+0200\n"
+"PO-Revision-Date: 2016-02-29 10:34+0200\n"
+"Last-Translator: \n"
+"Language-Team: GT3Themes <help@gt3themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: core/tgm\n"
+
+#: 404.php:4
+msgid "404"
+msgstr ""
+
+#: 404.php:5
+msgid "Oops, Sorry We Can’t Find That Page!"
+msgstr ""
+
+#: 404.php:6
+msgid ""
+"Either Something Get Wrong or the Page Doesn’t Exist Anymore. Visit Our "
+"Homepage or Search the Best Match Below."
+msgstr ""
+
+#: 404.php:11
+msgid "Search the Site"
+msgstr ""
+
+#: attachment.php:12 category.php:10
+msgid "Welcome to Blog"
+msgstr ""
+
+#: bloglisting.php:22 core/widgets/posts.php:56 single.php:46
+#: vc_templates/gt3_blog.php:62
+msgid "comment"
+msgstr ""
+
+#: bloglisting.php:24 core/widgets/posts.php:58 single.php:48 single.php:157
+#: vc_templates/gt3_blog.php:64 vc_templates/gt3_featured_posts.php:52
+msgid "comments"
+msgstr ""
+
+#: bloglisting.php:63 functions.php:1709 vc_templates/gt3_blog.php:99
+#: vc_templates/gt3_portfolio.php:216
+msgid "Read More"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:20
+msgid "Comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Name *"
+msgstr ""
+
+#: comments.php:41
+msgid "Email *"
+msgstr ""
+
+#: comments.php:42
+msgid "URL"
+msgstr ""
+
+#: comments.php:44
+msgid "Write Your Comment Here..."
+msgstr ""
+
+#: comments.php:47
+msgid "You must be logged in to post a comment."
+msgstr ""
+
+#: comments.php:48
+msgid "Leave a Comment!"
+msgstr ""
+
+#: comments.php:49
+msgid "Add a Comment"
+msgstr ""
+
+#: comments.php:50
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:50
+msgid "Log out?"
+msgstr ""
+
+#: comments.php:56
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: core/page-settings.php:11 core/page-settings.php:19
+msgid "GT3 Page Settings"
+msgstr ""
+
+#: core/page-settings.php:57 core/page-settings.php:194
+#: core/page-settings.php:293
+msgid "Advanced options"
+msgstr ""
+
+#: core/page-settings.php:62
+msgid "Price:"
+msgstr ""
+
+#: core/page-settings.php:64
+msgid "Position:"
+msgstr ""
+
+#: core/page-settings.php:70
+msgid "Link to Offer:"
+msgstr ""
+
+#: core/page-settings.php:73
+msgid "Offer Button Text:"
+msgstr ""
+
+#: core/page-settings.php:75
+msgid "Target Button Type:"
+msgstr ""
+
+#: core/page-settings.php:86
+msgid "Social icons"
+msgstr ""
+
+#: core/page-settings.php:96
+msgid "Give some name"
+msgstr ""
+
+#: core/page-settings.php:97
+msgid "Give some link"
+msgstr ""
+
+#: core/page-settings.php:98
+msgid "Foreground color"
+msgstr ""
+
+#: core/page-settings.php:147
+msgid "Select media"
+msgstr ""
+
+#: core/page-settings.php:171
+msgid "show thumbnails"
+msgstr ""
+
+#: core/page-settings.php:197
+msgid "External link:"
+msgstr ""
+
+#: core/page-settings.php:214
+msgid "Author:"
+msgstr ""
+
+#: core/page-settings.php:215
+msgid "Company:"
+msgstr ""
+
+#: core/page-settings.php:232
+msgid "Post format video URL:"
+msgstr ""
+
+#: core/page-settings.php:235 functions.php:1199 functions.php:1320
+msgid "Examples:"
+msgstr ""
+
+#: core/page-settings.php:241
+msgid "Slider Images"
+msgstr ""
+
+#: core/page-settings.php:259
+msgid "Post Format Link:"
+msgstr ""
+
+#: core/page-settings.php:267
+msgid "Post Format Quote:"
+msgstr ""
+
+#: core/page-settings.php:274
+msgid "Post Format Audio:"
+msgstr ""
+
+#: core/page-settings.php:296
+msgid "Link to the work:"
+msgstr ""
+
+#: core/page-settings.php:317
+msgid "Add Custom Field"
+msgstr ""
+
+#: core/page-settings.php:339
+msgid "Page Subtitle"
+msgstr ""
+
+#: core/page-settings.php:358 core/page-settings.php:417
+msgid "Page Options"
+msgstr ""
+
+#: core/page-settings.php:360
+msgid "Background Options:"
+msgstr ""
+
+#: core/page-settings.php:374 core/registrator/misc.php:161
+msgid "Add Image"
+msgstr ""
+
+#: core/page-settings.php:378
+msgid "Counter Title:"
+msgstr ""
+
+#: core/page-settings.php:380
+msgid "Counter Subtitle:"
+msgstr ""
+
+#: core/page-settings.php:383
+msgid "Shortcode Title:"
+msgstr ""
+
+#: core/page-settings.php:385
+msgid "Copyright Text:"
+msgstr ""
+
+#: core/page-settings.php:390
+msgid "Enter Date:"
+msgstr ""
+
+#: core/page-settings.php:391
+msgid "Enter year. Ex.:2020"
+msgstr ""
+
+#: core/page-settings.php:392
+msgid "Enter day. Ex.:27"
+msgstr ""
+
+#: core/page-settings.php:393
+msgid "Enter month. Ex.:11"
+msgstr ""
+
+#: core/page-settings.php:396
+msgid "Form Shortcode:"
+msgstr ""
+
+#: core/page-settings.php:419
+msgid "Shortcode:"
+msgstr ""
+
+#: core/page-settings.php:425
+msgid "Extra class name:"
+msgstr ""
+
+#: core/registrator/misc.php:72
+msgid "Custom Sidebars"
+msgstr ""
+
+#: core/registrator/misc.php:86
+msgid "Sidebar layout:"
+msgstr ""
+
+#: core/registrator/misc.php:110
+msgid "Select sidebar:"
+msgstr ""
+
+#: core/registrator/misc.php:126
+msgid "Custom Layout"
+msgstr ""
+
+#: core/registrator/misc.php:142
+msgid "Page layout:"
+msgstr ""
+
+#: core/registrator/misc.php:179
+msgid "Title:"
+msgstr ""
+
+#: core/registrator/misc.php:191
+msgid "Breadcrumb area:"
+msgstr ""
+
+#: core/registrator/misc.php:203
+msgid "Header Type:"
+msgstr ""
+
+#: core/registrator/misc.php:215
+msgid "Transparent Header:"
+msgstr ""
+
+#: core/registrator/misc.php:226
+msgid "Footer Type:"
+msgstr ""
+
+#: core/registrator/misc.php:238
+msgid "Pre Footer Bg Image Status:"
+msgstr ""
+
+#: core/registrator/misc.php:250
+msgid "Tagline area:"
+msgstr ""
+
+#: core/registrator/sidebars.php:9
+msgid ""
+"Add the widgets appearance for Custom Sidebar. Drag the widget from the "
+"available list on the left, configure widgets options and click Save button. "
+"Select the sidebar on the posts or pages in just few clicks."
+msgstr ""
+
+#: core/registrator/sidebars.php:17
+msgid ""
+"Display and style the footer area with multiple widgets. Simply drag the "
+"widgets from the left, make the adjustments to the widget according the "
+"needs. Preview the front end."
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:5
+msgid "Blog Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:6
+msgid "Display blog posts"
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:7
+#: core/vc/modules/gt3_colored_info_sections/init.php:7
+#: core/vc/modules/gt3_colored_info_sections/init.php:57
+#: core/vc/modules/gt3_featured_portfolio/init.php:7
+#: core/vc/modules/gt3_featured_posts/init.php:7
+#: core/vc/modules/gt3_gallery/init.php:7
+#: core/vc/modules/gt3_heading/init.php:7 core/vc/modules/gt3_offers/init.php:7
+#: core/vc/modules/gt3_partners/init.php:7
+#: core/vc/modules/gt3_portfolio/init.php:7 core/vc/modules/gt3_team/init.php:7
+#: core/vc/modules/gt3_testimonials/init.php:7
+msgid "GT3 Modules"
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:12
+#: core/vc/modules/gt3_featured_posts/init.php:12
+msgid "Blog Items"
+msgstr ""
+
+#: core/vc/modules/gt3_blog/init.php:21
+#: core/vc/modules/gt3_featured_portfolio/init.php:21
+#: core/vc/modules/gt3_featured_posts/init.php:21
+#: core/vc/modules/gt3_offers/init.php:21
+#: core/vc/modules/gt3_partners/init.php:21
+#: core/vc/modules/gt3_portfolio/init.php:21
+#: core/vc/modules/gt3_team/init.php:21
+#: core/vc/modules/gt3_testimonials/init.php:21
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:4
+msgid "Colored Info Sections"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:6
+msgid "Display custom colored info sections"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:15
+msgid "Container Layout"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:18
+#: core/vc/modules/gt3_portfolio/init.php:31
+msgid "Wall"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:19
+#: core/vc/modules/gt3_portfolio/init.php:29
+msgid "Grid"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:24
+msgid "Alignment"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:27
+msgid "Center"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:28
+msgid "Left"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:29
+msgid "Right"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:34
+#: core/vc/modules/gt3_offers/init.php:25
+#: core/vc/modules/gt3_partners/init.php:25
+#: core/vc/modules/gt3_portfolio/init.php:68
+#: core/vc/modules/gt3_team/init.php:25
+#: core/vc/modules/gt3_testimonials/init.php:25
+msgid "Items Per Line"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:37
+#: core/vc/modules/gt3_featured_portfolio/init.php:29
+#: core/vc/modules/gt3_featured_posts/init.php:29
+#: core/vc/modules/gt3_gallery/init.php:29
+#: core/vc/modules/gt3_offers/init.php:29
+#: core/vc/modules/gt3_partners/init.php:29
+#: core/vc/modules/gt3_portfolio/init.php:72
+#: core/vc/modules/gt3_team/init.php:29
+#: core/vc/modules/gt3_testimonials/init.php:29
+msgid "1"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:38
+#: core/vc/modules/gt3_featured_portfolio/init.php:30
+#: core/vc/modules/gt3_featured_posts/init.php:30
+#: core/vc/modules/gt3_gallery/init.php:30
+#: core/vc/modules/gt3_offers/init.php:30
+#: core/vc/modules/gt3_partners/init.php:30
+#: core/vc/modules/gt3_portfolio/init.php:73
+#: core/vc/modules/gt3_team/init.php:30
+#: core/vc/modules/gt3_testimonials/init.php:30
+msgid "2"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:39
+#: core/vc/modules/gt3_featured_portfolio/init.php:31
+#: core/vc/modules/gt3_featured_posts/init.php:31
+#: core/vc/modules/gt3_gallery/init.php:31
+#: core/vc/modules/gt3_offers/init.php:31
+#: core/vc/modules/gt3_partners/init.php:31
+#: core/vc/modules/gt3_portfolio/init.php:74
+#: core/vc/modules/gt3_team/init.php:31
+#: core/vc/modules/gt3_testimonials/init.php:31
+msgid "3"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:40
+#: core/vc/modules/gt3_featured_portfolio/init.php:32
+#: core/vc/modules/gt3_featured_posts/init.php:32
+#: core/vc/modules/gt3_gallery/init.php:32
+#: core/vc/modules/gt3_offers/init.php:32
+#: core/vc/modules/gt3_partners/init.php:32
+#: core/vc/modules/gt3_portfolio/init.php:75
+#: core/vc/modules/gt3_team/init.php:32
+#: core/vc/modules/gt3_testimonials/init.php:32
+msgid "4"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:45
+#: core/vc/modules/gt3_colored_info_sections/init.php:140
+msgid "Extra Class"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:47
+#: core/vc/modules/gt3_colored_info_sections/init.php:142
+msgid ""
+"If you wish to style particular content element differently, then use this "
+"field to add a class name and then refer to it in your css file."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:54
+msgid "Colored Info Section Item"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:65 functions.php:1146
+#: functions.php:1267
+msgid "Title"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:68
+msgid "Provide a title for this list item."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:73
+msgid "Description"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:76
+msgid "Description about this list item"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:81
+msgid "Background Color"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:84
+msgid "Select background color for this item."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:89
+msgid "Text Color"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:92
+msgid "Select text color for this item."
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:96
+msgid "Button"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:99
+msgid "Hide"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:100
+msgid "Show"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:106
+msgid "Button Title"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:113
+msgid "Link"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:119
+msgid "Icon Position"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:122
+msgid "Icon at Left"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:123
+msgid "Icon at Right"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:131
+msgid "Select Icon "
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:134
+msgid ""
+"Click and select icon of your choice. If you can't find the one that suits "
+"for your purpose, you can"
+msgstr ""
+
+#: core/vc/modules/gt3_colored_info_sections/init.php:134
+msgid "add new here"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:5
+msgid "Featured Portfolio Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:6
+msgid "Display the featured portfolio posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:12
+#: core/vc/modules/gt3_portfolio/init.php:12
+msgid "Portfolio Items"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:25
+#: core/vc/modules/gt3_featured_posts/init.php:25
+msgid "Posts Per Line"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:37
+#: core/vc/modules/gt3_gallery/init.php:37
+#: core/vc/modules/gt3_portfolio/init.php:81
+msgid "Featured Image Type"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:41
+#: core/vc/modules/gt3_gallery/init.php:41
+#: core/vc/modules/gt3_portfolio/init.php:85
+msgid "Rectangle"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_portfolio/init.php:42
+#: core/vc/modules/gt3_gallery/init.php:42
+#: core/vc/modules/gt3_portfolio/init.php:86
+msgid "Circle"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_posts/init.php:5
+msgid "Featured Blog Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_featured_posts/init.php:6
+msgid "Display the featured blog posts"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:5
+#: core/vc/modules/gt3_gallery/init.php:12
+msgid "Gallery"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:6
+msgid "Display custom gallery"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:21
+msgid ""
+"Create WordPress loop, to populate content from your site.<br>You can use "
+"only one gallery!!!"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:25
+msgid "Images in row"
+msgstr ""
+
+#: core/vc/modules/gt3_gallery/init.php:43
+#: core/vc/modules/gt3_portfolio/init.php:30
+msgid "Masonry"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:5
+msgid "Heading"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:6
+msgid "Add custom headings"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:12
+msgid "Heading Text"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:19
+msgid "Heading Tag"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:23
+msgid "H1"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:24
+msgid "H2"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:25
+msgid "H3"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:26
+msgid "H4"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:27
+msgid "H5"
+msgstr ""
+
+#: core/vc/modules/gt3_heading/init.php:28
+msgid "H6"
+msgstr ""
+
+#: core/vc/modules/gt3_offers/init.php:5
+msgid "Offers"
+msgstr ""
+
+#: core/vc/modules/gt3_offers/init.php:6
+msgid "Display offers"
+msgstr ""
+
+#: core/vc/modules/gt3_offers/init.php:12
+msgid "Offer Items"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:5
+msgid "Partners"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:6
+msgid "Display partners"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:12
+msgid "Partners Items"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:33
+#: core/vc/modules/gt3_portfolio/init.php:76
+msgid "5"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:34
+msgid "6"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:39
+#: core/vc/modules/gt3_portfolio/init.php:25
+msgid "View Type"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:43
+msgid "Type 1"
+msgstr ""
+
+#: core/vc/modules/gt3_partners/init.php:44
+msgid "Type 2"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:5
+msgid "Portfolio Posts"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:6
+msgid "Display portfolio posts"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:36
+msgid "Ajax"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:40
+#: core/vc/modules/gt3_portfolio/init.php:62
+msgid "On"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:41
+#: core/vc/modules/gt3_portfolio/init.php:63
+msgid "Off"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:46
+msgid "Items on load"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:48
+#: core/vc/modules/gt3_portfolio/init.php:54
+msgid ""
+"Note, indicate the items quantity if you selected Ajax=\"On\" in the field "
+"above."
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:52
+msgid "Items per click"
+msgstr ""
+
+#: core/vc/modules/gt3_portfolio/init.php:58
+msgid "Filter"
+msgstr ""
+
+#: core/vc/modules/gt3_team/init.php:5
+msgid "Team"
+msgstr ""
+
+#: core/vc/modules/gt3_team/init.php:6
+msgid "Display team members"
+msgstr ""
+
+#: core/vc/modules/gt3_team/init.php:12
+msgid "Team Items"
+msgstr ""
+
+#: core/vc/modules/gt3_testimonials/init.php:5
+msgid "Testimonials"
+msgstr ""
+
+#: core/vc/modules/gt3_testimonials/init.php:6
+msgid "Display testimonials"
+msgstr ""
+
+#: core/vc/modules/gt3_testimonials/init.php:12
+msgid "Testimonials Items"
+msgstr ""
+
+#: core/widgets/posts.php:30 page-with-slider-above-content.php:28 page.php:25
+#: single-offers.php:42 single-portfolio.php:75 single-team.php:28
+#: single.php:84
+msgid "Read more!"
+msgstr ""
+
+#: footer.php:52
+msgid "Follow:"
+msgstr ""
+
+#: functions.php:113
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:116
+msgid "Reply"
+msgstr ""
+
+#: functions.php:146
+msgid "Prev"
+msgstr ""
+
+#: functions.php:179
+msgid "Next"
+msgstr ""
+
+#: functions.php:577
+msgid "Home"
+msgstr ""
+
+#: functions.php:1049
+msgid "All Works"
+msgstr ""
+
+#: functions.php:1150 functions.php:1162 functions.php:1210 functions.php:1226
+#: functions.php:1271 functions.php:1283 functions.php:1331 functions.php:1350
+msgid "color"
+msgstr ""
+
+#: functions.php:1158 functions.php:1222 functions.php:1279 functions.php:1346
+msgid "Caption"
+msgstr ""
+
+#: functions.php:1192 functions.php:1313
+msgid "Video settings"
+msgstr ""
+
+#: functions.php:1196 functions.php:1317
+msgid "Video URL (YouTube or Vimeo)"
+msgstr ""
+
+#: functions.php:1206 functions.php:1327
+msgid "Title and thumbnail"
+msgstr ""
+
+#: functions.php:1262
+msgid "Image Settings"
+msgstr ""
+
+#: functions.php:1337
+msgid "Upload Image"
+msgstr ""
+
+#: functions.php:1862 header.php:85
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:1919
+msgid "N/A"
+msgstr ""
+
+#: header.php:76
+msgid "Login"
+msgstr ""
+
+#: header.php:125
+msgid "Remove this item"
+msgstr ""
+
+#: header.php:133
+msgid "Subtotal"
+msgstr ""
+
+#: header.php:137
+msgid "View cart"
+msgstr ""
+
+#: header.php:139
+msgid "Checkout"
+msgstr ""
+
+#: header.php:142
+msgid "No products in the cart."
+msgstr ""
+
+#: header.php:149
+msgid "Follow"
+msgstr ""
+
+#: header.php:304 searchform.php:2 searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: header.php:305
+msgid "Go"
+msgstr ""
+
+#: image.php:54
+msgid "Published on"
+msgstr ""
+
+#: image.php:54
+msgid "in"
+msgstr ""
+
+#: image.php:71
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:72
+msgid "Full resolution"
+msgstr ""
+
+#: image.php:77
+msgid "Edit"
+msgstr ""
+
+#: image.php:92
+msgid "Pages:"
+msgstr ""
+
+#: image.php:98
+msgid "Back"
+msgstr ""
+
+#: page-coming-soon.php:55
+msgid "Date has not been entered"
+msgstr ""
+
+#: page-coming-soon.php:182 page-onepage-scroll.php:40
+msgid "This Content is Password Protected"
+msgstr ""
+
+#: page-coming-soon.php:200 page-onepage-scroll.php:58
+msgid "Enter The Password..."
+msgstr ""
+
+#: page-with-slider-above-content.php:29 page.php:26 single-offers.php:43
+#: single-portfolio.php:76 single-team.php:29 single.php:85 woocommerce.php:26
+msgid "Pages"
+msgstr ""
+
+#: search.php:46 search.php:69
+msgid "by"
+msgstr ""
+
+#: search.php:83
+msgid "Oops!"
+msgstr ""
+
+#: search.php:83
+msgid "Not Found!"
+msgstr ""
+
+#: search.php:84
+msgid "Apologies, but we were unable to find what you were looking for."
+msgstr ""
+
+#: search.php:95
+msgid "Search Results"
+msgstr ""
+
+#: search.php:96
+msgid "Sorry, but you've entered invalid search term. Please try a new search."
+msgstr ""
+
+#: single-offers.php:55
+msgid "Related Offers"
+msgstr ""
+
+#: single-portfolio.php:90 single.php:99
+msgid "Previous Post"
+msgstr ""
+
+#: single-portfolio.php:95 single.php:104
+msgid "Next Post"
+msgstr ""
+
+#: single-portfolio.php:103
+msgid "Related Projects"
+msgstr ""
+
+#: single.php:112
+msgid "Related Posts"
+msgstr ""
+
+#: vc_templates/gt3_portfolio.php:66
+msgid "Load More"
+msgstr ""
+
+#: woocommerce.php:16
+msgid "Shop"
+msgstr ""
