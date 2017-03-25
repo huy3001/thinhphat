@@ -1,0 +1,17 @@
+/* Footer styles */
+
+.footercredits {
+    p {
+        font-size: $f-size - 2px !important;
+    }
+}
+
+.footernav {
+    ul {
+        li {
+            a {
+                font-size: $f-size - 2px !important;
+            }
+        }
+    }
+}

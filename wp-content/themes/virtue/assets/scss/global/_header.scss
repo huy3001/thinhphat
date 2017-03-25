@@ -1,0 +1,19 @@
+/* Header styles */
+
+#nav-main {
+    ul {
+        &.sf-menu {
+            li {
+                &:hover,
+                &.current-menu-item {
+                    a {
+                        background: $bg-menu-active;
+                    }
+                }
+            }
+            a {
+                font-family: $f-family;
+            }
+        }
+    }
+}
