@@ -1,5 +1,15 @@
 /* Header styles */
 
+header {
+    #logo {
+        a.brand {
+            img {
+                max-width: 120px;
+            }
+        }
+    }
+}
+
 #nav-main {
     ul {
         &.sf-menu {

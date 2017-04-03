@@ -16,14 +16,20 @@ body {
 
 /* Header styles */
 
-/* line 9, assets/scss/global/_header.scss */
+/* line 6, assets/scss/global/_header.scss */
+
+header #logo a.brand img {
+  max-width: 120px;
+}
+
+/* line 19, assets/scss/global/_header.scss */
 
 #nav-main ul.sf-menu li:hover a,
 #nav-main ul.sf-menu li.current-menu-item a {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 14, assets/scss/global/_header.scss */
+/* line 24, assets/scss/global/_header.scss */
 
 #nav-main ul.sf-menu a {
   font-family: Arial, Helvetica, sans-serif;
@@ -41,4 +47,21 @@ body {
 
 .footernav ul li a {
   font-size: 12px !important;
+}
+
+/* Portfolio carousel styles */
+
+/* line 4, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-carousel .kad_portfolio_item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 8, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-carousel .grid_item,
+#portfolio-carousel .imghoverclass,
+#portfolio-carousel .kad_portfolio_link {
+  height: 100%;
 }

@@ -64,6 +64,7 @@ function virtue_custom_scripts() {
 	wp_enqueue_style( 'styles',   get_template_directory_uri() . '/assets/css/style.css');
 
 	/*============ Javascript ============ */
+	wp_enqueue_script( 'imgcentering',   get_template_directory_uri() . '/assets/js/min/imgcentering.min.js',array('jquery'), '3.1.1', true);
 	wp_enqueue_script( 'custom',   get_template_directory_uri() . '/assets/js/custom.js',array('jquery'), '3.1.1', true);
 }
 
