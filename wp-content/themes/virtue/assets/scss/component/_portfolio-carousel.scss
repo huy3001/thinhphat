@@ -1,0 +1,19 @@
+/* Portfolio carousel styles */
+
+#portfolio-carousel {
+    .kad_portfolio_item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .grid_item,
+    .imghoverclass,
+    .kad_portfolio_link {
+        height: 100%;
+    }
+    .imghoverclass {
+        img {
+//            height: 100%;
+//            max-width: inherit;
+        }
+    }
+}
