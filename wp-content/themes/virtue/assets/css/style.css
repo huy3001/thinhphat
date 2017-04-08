@@ -18,8 +18,8 @@ body {
 
 /* line 9, assets/scss/global/_header.scss */
 
-#nav-main ul.sf-menu li:hover a,
-#nav-main ul.sf-menu li.current-menu-item a {
+#nav-main ul.sf-menu li:hover > a,
+#nav-main ul.sf-menu li.current-menu-item > a {
   background: rgba(0, 0, 0, 0.1);
 }
 
