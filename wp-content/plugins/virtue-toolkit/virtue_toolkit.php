@@ -3,7 +3,7 @@
 /*
 Plugin Name: Kadence Toolkit
 Description: Custom Portfolio and Shortcode functionality for free Kadence WordPress themes
-Version: 4.1
+Version: 4.3
 Author: Kadence Themes
 Author URI: https://kadencethemes.com/
 License: GPLv2 or later

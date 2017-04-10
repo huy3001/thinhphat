@@ -51,12 +51,14 @@ if ( ! class_exists( 'Kadence_Toolkit_Get_Image' ) ) {
 		    //Check for jetpack
 		    if( class_exists( 'Jetpack' ) && Jetpack::is_module_active( 'photon' ) ) {
 		    	$args = array( 'resize' => $width . ',' . $height );
-		    	$image = array (
-		            0 => jetpack_photon_url( wp_get_attachment_image_url($id, 'full'), $args ),
+		    	$image_url = wp_get_attachment_image_url($id, 'full');
+		    	return array (
+		            0 => jetpack_photon_url( $image_url, $args ),
 		            1 => $width,
 		            2 => $height,
-		            3 => '',
-					4 => $id
+		            3 => self::toolkit_get_srcset_output($id, $image_url, $width, $height),
+					4 => $image_url,
+					5 => $id
 		        );
 		    } else if( self::toolkit_image_size_already_exists( $id, $width, $height ) ) {
 

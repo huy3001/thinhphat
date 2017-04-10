@@ -1336,6 +1336,7 @@ function kt_toolkit_ascend_metabox() {
 			'thumbslider' 		=> __("Image Slider with thumbnails (Cropped Image Ratio)", 'virtue-toolkit' ),
 			'imgcarousel' 		=> __("Image Carousel - (Muiltiple Images Showing At Once)", 'virtue-toolkit' ),
 			'collage' 			=> __("Image Collage - (Use 2 to 5 images)", 'virtue-toolkit' ),
+			'imagegrid' 		=> __("Image Grid", 'virtue-toolkit' ),
 			'video' 			=> __("Video", 'virtue-toolkit' ),
 			'none' 				=> __("None", 'virtue-toolkit' ),
 		),
