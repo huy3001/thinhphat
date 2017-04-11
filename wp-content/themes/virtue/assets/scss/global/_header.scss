@@ -16,7 +16,7 @@ header {
             li {
                 &:hover,
                 &.current-menu-item {
-                    a {
+                    > a {
                         background: $bg-menu-active;
                     }
                 }
