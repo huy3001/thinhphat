@@ -1,13 +1,13 @@
-/* Portfolio carousel styles */
+/* Portfolio grid styles */
 
-#portfolio-carousel {
+#portfoliowrapper {
     .kad_portfolio_item {
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .grid_item,
     .imghoverclass,
-    .kad_portfolio_link {
+    .imghoverclass a {
         height: 100%;
     }
 }

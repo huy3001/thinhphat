@@ -48,23 +48,23 @@ Template Name: Portfolio Grid
 					$portfolio_items = '-1';
 				}
 				if ($portfolio_column == '2') {
-					$itemsize 		= 'tcol-md-6 tcol-sm-6 tcol-xs-12 tcol-ss-12';
+					$itemsize 		= 'tcol-md-6 tcol-sm-6 tcol-xs-12 tcol-ss-12 kad_portfolio_item';
 					$slidewidth 	= 559;
 					$slideheight 	= 559;
 				} else if ($portfolio_column == '3'){
-					$itemsize 		= 'tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+					$itemsize 		= 'tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item';
 					$slidewidth 	= 366;
 					$slideheight 	= 366;
 				} else if ($portfolio_column == '6'){
-					$itemsize 		= 'tcol-md-2 tcol-sm-3 tcol-xs-4 tcol-ss-6';
+					$itemsize 		= 'tcol-md-2 tcol-sm-3 tcol-xs-4 tcol-ss-6 kad_portfolio_item';
 					$slidewidth 	= 240;
 					$slideheight 	= 240;
 				} else if ($portfolio_column == '5'){
-					$itemsize 		= 'tcol-md-25 tcol-sm-3 tcol-xs-4 tcol-ss-6';
+					$itemsize 		= 'tcol-md-25 tcol-sm-3 tcol-xs-4 tcol-ss-6 kad_portfolio_item';
 					$slidewidth 	= 240;
 					$slideheight 	= 240; 
 				} else {
-					$itemsize = 'tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+					$itemsize = 'tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item';
 					$slidewidth = 269;
 					$slideheight = 269;
 				}

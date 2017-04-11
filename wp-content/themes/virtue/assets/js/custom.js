@@ -3,12 +3,12 @@
 (function($) {
     var customJS = {
         portfolioHeight: function() {
-            var carouselItem = $('.kad_portfolio_item');
-            if(carouselItem.length) {
-                carouselItem.each(function() {
-                    $(this).height($(this).innerWidth());
-                    var carouselImage = $(this).find('.imghoverclass img');
-                    carouselImage.imgCentering({
+            var portfolioItem = $('.kad_portfolio_item');
+            if(portfolioItem.length) {
+                portfolioItem.each(function() {
+                    $(this).height($(this).width());
+                    var portfolioImage = $(this).find('.imghoverclass img');
+                    portfolioImage.imgCentering({
                         'forceSmart': true
                     });
                 });

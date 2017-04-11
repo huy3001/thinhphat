@@ -16,15 +16,15 @@
 				endif;
 				global $virtue;
 				if(isset($virtue['portfolio_type_columns']) && $virtue['portfolio_type_columns'] == '4') {
-					$itemsize = 'tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+					$itemsize = 'tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item';
 					$slidewidth = 269;
 					$slideheight = 269;
 				} elseif(isset($virtue['portfolio_type_columns']) && $virtue['portfolio_type_columns'] == '5') {
-					$itemsize 		= 'tcol-md-25 tcol-sm-3 tcol-xs-4 tcol-ss-6';
+					$itemsize 		= 'tcol-md-25 tcol-sm-3 tcol-xs-4 tcol-ss-6 kad_portfolio_item';
 					$slidewidth 	= 240;
 					$slideheight 	= 240; 
 				} else {
-					$itemsize 		= 'tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+					$itemsize 		= 'tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item';
 					$slidewidth 	= 366; 
 					$slideheight 	= 366; 
 				}

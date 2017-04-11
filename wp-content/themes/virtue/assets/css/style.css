@@ -65,3 +65,20 @@ header #logo a.brand img {
 #portfolio-carousel .kad_portfolio_link {
   height: 100%;
 }
+
+/* Portfolio grid styles */
+
+/* line 4, assets/scss/component/_portfolio-grid.scss */
+
+#portfoliowrapper .kad_portfolio_item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 8, assets/scss/component/_portfolio-grid.scss */
+
+#portfoliowrapper .grid_item,
+#portfoliowrapper .imghoverclass,
+#portfoliowrapper .imghoverclass a {
+  height: 100%;
+}

@@ -3,7 +3,7 @@ Contributors: britner
 Tags: 
 Requires at least: 4.0
 Tested up to: 4.7
-Stable tag: 4.1
+Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,15 @@ Install the plugin into the `/wp-content/plugins/` folder, and activate it.
 
 
 == Changelog ==
+
+= 4.3 =
+* Update: add Icons
+* Update: Add local select js
+* Update: Ascend meta.
+* Fix: Image processing issue.
+
+= 4.2 =
+* Update: Fix for Photon
 
 = 4.1 =
 * Update: Add Kadence Image processing.

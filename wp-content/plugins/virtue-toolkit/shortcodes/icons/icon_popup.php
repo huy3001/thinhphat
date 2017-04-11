@@ -13,8 +13,8 @@ global $wp_scripts;
 <script language="javascript" type="text/javascript" src="<?php echo site_url(); ?>/wp-includes/js/tinymce/utils/form_utils.js"></script>
 <base target="_self" />
 <?php wp_print_scripts(); ?>
-<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/lib/icons/js/icon-select.js"></script>
-<link href="<?php echo get_template_directory_uri() ?>/lib/icons/css/icon-select.css" rel="stylesheet"/>
+<script language="javascript" type="text/javascript" src="<?php echo VIRTUE_TOOLKIT_URL ?>/assets/icon_select.js"></script>
+<link href="<?php echo VIRTUE_TOOLKIT_URL ?>/assets/icon_select.css" rel="stylesheet"/>
 <link href="<?php echo get_template_directory_uri() ?>/assets/css/icons.css" rel="stylesheet"/>
 <script type="text/javascript">
  
