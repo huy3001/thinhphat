@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Virtue Theme\n"
 "POT-Creation-Date: 2017-04-12 10:02+0700\n"
-"PO-Revision-Date: 2017-04-12 18:18+0700\n"
+"PO-Revision-Date: 2017-04-13 12:03+0700\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1669,50 +1669,60 @@ msgid ""
 "anything else will get your rejected from theme submission. Suspected Redux "
 "package file(s):"
 msgstr ""
+"Dường như bạn đã nhúng gói Redux đầy đủ bên trong chủ đề của bạn. Bạn chỉ "
+"cần nhúng thư mục <strong>ReduxCore</strong>. Nhúng bất cứ thứ gì khác sẽ "
+"khiến bạn bị từ chối khi gửi chủ đề. Các tập tin gói nghi ngờ Redux:"
 
 #: themeoptions/inc/validation/color/validation_color.php:15
 #: themeoptions/inc/validation/color_rgba/validation_color_rgba.php:14
 #: themeoptions/inc/validation/colorrgba/validation_colorrgba.php:16
 msgid "This field must be a valid color value."
-msgstr ""
+msgstr "Trường này phải là một giá trị màu hợp lệ."
 
 #: themeoptions/inc/validation/comma_numeric/validation_comma_numeric.php:16
 msgid ""
 "You must provide a comma separated list of numerical values for this option."
 msgstr ""
+"Bạn phải cung cấp một dấu phẩy tách ra danh sách các giá trị số cho tùy chọn "
+"này."
 
 #: themeoptions/inc/validation/css/validation_css.php:39
 msgid "Unsafe strings were found in your CSS and have been filtered out."
 msgstr ""
+"Các chuỗi không an toàn đã được tìm thấy trong CSS của bạn và đã được lọc ra."
 
 #: themeoptions/inc/validation/date/validation_date.php:16
 msgid "This field must be a valid date."
-msgstr ""
+msgstr "Trường này phải là một ngày hợp lệ."
 
 #: themeoptions/inc/validation/email/validation_email.php:16
 #: themeoptions/inc/validation/email_not_empty/validation_email_not_empty.php:16
 msgid "You must provide a valid email for this option."
-msgstr ""
+msgstr "Bạn phải cung cấp một email hợp lệ cho tùy chọn này."
 
 #: themeoptions/inc/validation/no_html/validation_no_html.php:15
 msgid ""
 "You must not enter any HTML in this field, all HTML tags have been removed."
 msgstr ""
+"Bạn không được nhập bất kỳ mã HTML nào trong trường này, tất cả các thẻ HTML "
+"đã bị xóa."
 
 #: themeoptions/inc/validation/no_special_chars/validation_no_special_chars.php:16
 msgid ""
 "You must not enter any special characters in this field, all special "
 "characters have been removed."
 msgstr ""
+"Bạn không được nhập bất kỳ ký tự đặc biệt nào trong trường này, tất cả ký tự "
+"đặc biệt đã bị xóa."
 
 #: themeoptions/inc/validation/not_empty/validation_not_empty.php:16
 msgid "This field cannot be empty. Please provide a value."
-msgstr ""
+msgstr "Trường này không thể để trống. Vui lòng cung cấp giá trị."
 
 #: themeoptions/inc/validation/numeric/validation_numeric.php:16
 #: themeoptions/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
 msgid "You must provide a numerical value for this option."
-msgstr ""
+msgstr "Bạn phải cung cấp một số giá trị cho tùy chọn này."
 
 #: themeoptions/inc/validation/unique_slug/validation_unique_slug.php:16
 #, php-format
@@ -1720,455 +1730,478 @@ msgid ""
 "That URL slug is in use, please choose another. <code>%s</code> is open for "
 "use."
 msgstr ""
+"URL slug đó đang được sử dụng, hãy chọn một cái khác. <code>%s</code> là mở "
+"để sử dụng."
 
 #: themeoptions/inc/validation/url/validation_url.php:16
 msgid "You must provide a valid URL for this option."
-msgstr ""
+msgstr "Bạn phải cung cấp một URL hợp lệ cho tùy chọn này."
 
 #: themeoptions/options.php:37 themeoptions/options.php:38
 msgid "Theme Options"
-msgstr ""
+msgstr "Tùy chọn chủ đề"
 
 #: themeoptions/options.php:62
 msgid ""
 "Thank you for using the Virtue Theme by <a href=\"https://www.kadencethemes."
 "com/\" target=\"_blank\">Kadence Themes</a>."
 msgstr ""
+"Cảm ơn bạn đã sử dụng Chủ đề Virtue bởi <a href=\"https://www.kadencethemes."
+"com/\" target=\"_blank\">Kadence Themes</a>."
 
 #: themeoptions/options.php:114
 msgid "Main Settings"
-msgstr ""
+msgstr "Những cài đặt chính"
 
 #: themeoptions/options.php:117
 msgid "Welcome to Virtue Theme Options"
-msgstr ""
+msgstr "Chào mừng bạn đến với Tùy chọn Chủ đề Virtue"
 
 #: themeoptions/options.php:118
 msgid "This theme was developed by"
-msgstr ""
+msgstr "Chủ đề này được phát triển bởi"
 
 #: themeoptions/options.php:119
 msgid "For theme documentation visit"
-msgstr ""
+msgstr "Đối với tài liệu cho chủ đề hãy vào"
 
 #: themeoptions/options.php:121
 msgid "For support please visit"
-msgstr ""
+msgstr "Để được hỗ trợ vui lòng truy cập"
 
 #: themeoptions/options.php:131
 msgid "Site Layout Style"
-msgstr ""
+msgstr "Kiểu dáng trang web"
 
 #: themeoptions/options.php:132
 msgid "Select Boxed or Wide Site Layout Style"
-msgstr ""
+msgstr "Chọn kiểu đóng gói hoặc phong cách Trang web rộng rãi"
 
 #: themeoptions/options.php:144
 msgid "Footer Widget Layout"
-msgstr ""
+msgstr "Giao diện Widget chân trang"
 
 #: themeoptions/options.php:145
 msgid "Select how many columns for footer widgets"
-msgstr ""
+msgstr "Chọn số lượng cột cho tiện ích chân trang"
 
 #: themeoptions/options.php:157
 msgid "Logo Options"
-msgstr ""
+msgstr "Tùy chọn Logo"
 
 #: themeoptions/options.php:164
 msgid "Logo Layout"
-msgstr ""
+msgstr "Giao diện Logo"
 
 #: themeoptions/options.php:165
 msgid "Choose how you want your logo to be laid out"
-msgstr ""
+msgstr "Chọn cách bạn muốn đặt logo của mình"
 
 #: themeoptions/options.php:178
 msgid "Logo"
-msgstr ""
+msgstr "Logo"
 
 #: themeoptions/options.php:179
 msgid "Upload your Logo. If left blank theme will use site name."
-msgstr ""
+msgstr "Tải lên Logo của bạn. Nếu để trống chủ đề sẽ sử dụng tên trang web."
 
 #: themeoptions/options.php:186
 msgid "Upload Your @2x Logo for Retina Screens"
-msgstr ""
+msgstr "Tải lên @2x Logo của bạn cho Màn hình Retina"
 
 #: themeoptions/options.php:188
 msgid "Should be twice the pixel size of your normal logo."
-msgstr ""
+msgstr "Phải gấp đôi kích thước pixel của logo thông thường của bạn."
 
 #: themeoptions/options.php:193
 msgid "Sitename Logo Font"
-msgstr ""
+msgstr "Logo Font Tên trang web"
 
 #: themeoptions/options.php:209
 msgid "Choose size and style your sitename, if you don't use an image logo."
 msgstr ""
+"Chọn kích thước và kiểu tên trang web của bạn, nếu bạn không sử dụng biểu "
+"tượng hình ảnh."
 
 #: themeoptions/options.php:221
 msgid "Site Tagline - Below Logo"
-msgstr ""
+msgstr "Khẩu hiệu trang web - Bên dưới Logo"
 
 #: themeoptions/options.php:222
 msgid "An optional line of text below your logo"
-msgstr ""
+msgstr "Dòng văn bản tùy chọn bên dưới logo của bạn"
 
 #: themeoptions/options.php:230
 msgid "Site Tagline Font"
-msgstr ""
+msgstr "Font Khẩu hiệu trang web"
 
 #: themeoptions/options.php:244
 msgid "Choose size and style your site tagline"
-msgstr ""
+msgstr "Chọn kích thước và phong cách cho khẩu hiệu trang web của bạn"
 
 #: themeoptions/options.php:255 themeoptions/options.php:266
 #: themeoptions/options.php:277 themeoptions/options.php:288
 msgid "Logo Spacing"
-msgstr ""
+msgstr "Khoảng cách của Logo"
 
 #: themeoptions/options.php:256 themeoptions/options.php:300
 msgid "Top Spacing"
-msgstr ""
+msgstr "Khoảng cách trên"
 
 #: themeoptions/options.php:267 themeoptions/options.php:311
 msgid "Bottom Spacing"
-msgstr ""
+msgstr "Khoảng cách dưới"
 
 #: themeoptions/options.php:278
 msgid "Left Spacing"
-msgstr ""
+msgstr "Khoảng cách trái"
 
 #: themeoptions/options.php:289
 msgid "Right Spacing"
-msgstr ""
+msgstr "Khoảng cách phải"
 
 #: themeoptions/options.php:299 themeoptions/options.php:310
 msgid "Primary Menu Spacing"
-msgstr ""
+msgstr "Khoảng cách Menu chính"
 
 #: themeoptions/options.php:323
 msgid "Sitewide Banner"
-msgstr ""
+msgstr "Biểu ngữ toàn trang"
 
 #: themeoptions/options.php:325
 msgid "Upload a banner for bottom of header."
-msgstr ""
+msgstr "Tải lên biểu ngữ cho phần cuối của đầu trang."
 
 #: themeoptions/options.php:334
 msgid "Topbar Settings"
-msgstr ""
+msgstr "Cài đặt thanh đầu trang"
 
 #: themeoptions/options.php:340
 msgid "Use Topbar?"
-msgstr ""
+msgstr "Sử dụng thanh đầu trang?"
 
 #: themeoptions/options.php:341
 msgid "Choose to show or hide topbar"
-msgstr ""
+msgstr "Chọn hiển thị hoặc ẩn thanh đầu trang"
 
 #: themeoptions/options.php:348
 msgid "Use Topbar Icon Menu?"
-msgstr ""
+msgstr "Sử dụng biểu tượng Menu cho thanh đầu trang?"
 
 #: themeoptions/options.php:349
 msgid "Choose to show or hide topbar icon Menu"
-msgstr ""
+msgstr "Chọn hiển thị hoặc ẩn biểu tượng Menu cho thanh đầu trang"
 
 #: themeoptions/options.php:356
 msgid "Topbar Icon Menu"
-msgstr ""
+msgstr "Biểu tượng Menu cho thanh đầu trang"
 
 #: themeoptions/options.php:357
 msgid "Choose your icons for the topbar icon menu."
-msgstr ""
+msgstr "Chọn biểu tượng của bạn cho biểu tượng menu thanh đầu trang."
 
 #: themeoptions/options.php:364
 msgid "Show Cart total in topbar?"
-msgstr ""
+msgstr "Hiển thị giỏ hàng trên thanh đầu trang?"
 
 #: themeoptions/options.php:365
 msgid "This only works if using woocommerce"
-msgstr ""
+msgstr "Điều này chỉ hoạt động nếu sử dụng woocommerce"
 
 #: themeoptions/options.php:372
 msgid "Display Search in Topbar?"
-msgstr ""
+msgstr "Hiển thị tìm kiếm thanh đầu trang?"
 
 #: themeoptions/options.php:373
 msgid "Choose to show or hide search in topbar"
-msgstr ""
+msgstr "Chọn hiển thị hoặc ẩn tìm kiếm trong thanh đầu trang"
 
 #: themeoptions/options.php:380
 msgid "Enable widget area in right of Topbar?"
-msgstr ""
+msgstr "Bật khu vực tiện ích bên phải của Thanh đầu trang?"
 
 #: themeoptions/options.php:381
 msgid ""
 "Note this will hide remove search (you can re-enable it by adding it to the "
 "widget area)"
 msgstr ""
+"Lưu ý điều này sẽ giấu tìm kiếm (bạn có thể kích hoạt lại nó bằng cách thêm "
+"nó vào khu vực tiện ích)"
 
 #: themeoptions/options.php:388
 msgid "Topbar Layout Switch"
-msgstr ""
+msgstr "Chuyển Giao diện Thanh đầu trang"
 
 #: themeoptions/options.php:389
 msgid "This moves the left items to the right and right items to the left."
 msgstr ""
+"Thao tác này sẽ di chuyển các mục bên trái sang bên phải và các mục bên phải "
+"sang trái."
 
 #: themeoptions/options.php:399
 msgid "Home Slider Settings"
-msgstr ""
+msgstr "Cài đặt Thanh trượt Trang chủ"
 
 #: themeoptions/options.php:400
 msgid "Home Page Slider Options"
-msgstr ""
+msgstr "Tuỳ chọn Thanh trượt Trang chủ"
 
 #: themeoptions/options.php:406
 msgid ""
 "*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
 "Apperance > Theme Options > Home Slider for all Home slider settings"
 msgstr ""
+"*LƯU Ý: Đảm bảo plugin Virtue/Pinnacle Toolkit được kích hoạt* <br>Chuyển "
+"đến Xuất hiện > Tuỳ chọn Chủ đề > Thanh trượt Trang chủ cho tất cả cài đặt "
+"thanh trượt Trang chủ"
 
 #: themeoptions/options.php:411
 msgid "Choose a Home Image Slider"
-msgstr ""
+msgstr "Chọn một Thanh trượt Hình ảnh Trang chủ"
 
 #: themeoptions/options.php:412
 msgid "If you don't want an image slider on your home page choose none."
 msgstr ""
+"Nếu bạn không muốn thanh trượt hình ảnh trên trang chủ của mình thì không "
+"chọn."
 
 #: themeoptions/options.php:423 themeoptions/options.php:539
 msgid "Slider Images"
-msgstr ""
+msgstr "Thanh trượt Hình ảnh"
 
 #: themeoptions/options.php:424 themeoptions/options.php:540
 msgid "Use large images for best results."
-msgstr ""
+msgstr "Sử dụng hình ảnh lớn để có kết quả tốt nhất."
 
 #: themeoptions/options.php:430 themeoptions/options.php:548
 msgid "Slider Max Height"
-msgstr ""
+msgstr "Chiều cao tối đa của Thanh trượt"
 
 #: themeoptions/options.php:431 themeoptions/options.php:442
 #: themeoptions/options.php:549 themeoptions/options.php:561
 msgid "Note: does not work if images are smaller than max."
-msgstr ""
+msgstr "Lưu ý: không hoạt động nếu hình ảnh nhỏ hơn tối đa."
 
 #: themeoptions/options.php:441 themeoptions/options.php:560
 msgid "Slider Max Width"
-msgstr ""
+msgstr "Chiều rộng tối đa của Thanh trượt"
 
 #: themeoptions/options.php:452 themeoptions/options.php:572
 msgid "Auto Play?"
-msgstr ""
+msgstr "Tự chạy?"
 
 #: themeoptions/options.php:453 themeoptions/options.php:573
 msgid "This determines if a slider automatically scrolls"
-msgstr ""
+msgstr "Điều này sẽ quyết định nếu một thanh trượt tự động cuộn"
 
 #: themeoptions/options.php:460 themeoptions/options.php:581
 msgid "Slider Pause Time"
-msgstr ""
+msgstr "Thời gian tạm dừng thanh trượt"
 
 #: themeoptions/options.php:461 themeoptions/options.php:582
 msgid "How long to pause on each slide, in milliseconds."
-msgstr ""
+msgstr "Bao lâu để tạm dừng trên mỗi trang trình bày, tính bằng mili giây."
 
 #: themeoptions/options.php:471 themeoptions/options.php:593
 msgid "Transition Type"
-msgstr ""
+msgstr "Loại chuyển tiếp"
 
 #: themeoptions/options.php:472 themeoptions/options.php:594
 msgid "Choose a transition type"
-msgstr ""
+msgstr "Chọn loại chuyển tiếp"
 
 #: themeoptions/options.php:480 themeoptions/options.php:603
 msgid "Slider Transition Time"
-msgstr ""
+msgstr "Thời gian chuyển thanh trượt"
 
 #: themeoptions/options.php:481 themeoptions/options.php:604
 msgid "How long for slide transitions, in milliseconds."
-msgstr ""
+msgstr "Thời lượng chuyển đổi hình ảnh, tính bằng mili giây."
 
 #: themeoptions/options.php:491 themeoptions/options.php:615
 msgid "Show Captions?"
-msgstr ""
+msgstr "Hiển thị chú thích?"
 
 #: themeoptions/options.php:492 themeoptions/options.php:616
 msgid "Choose to show or hide captions"
-msgstr ""
+msgstr "Chọn hiển thị hoặc ẩn phụ đề"
 
 #: themeoptions/options.php:500 themeoptions/options.php:624
 msgid "Video Embed Code"
-msgstr ""
+msgstr "Mã nhúng Video"
 
 #: themeoptions/options.php:501 themeoptions/options.php:625
 msgid "If your using a video on the home page place video embed code here."
-msgstr ""
+msgstr "Nếu bạn sử dụng video trên trang chủ, hãy đưa mã nhúng video vào đây."
 
 #: themeoptions/options.php:512
 msgid "Home Mobile Slider"
-msgstr ""
+msgstr "Thanh trượt Di động Trang chủ"
 
 #: themeoptions/options.php:513
 msgid "Create a more lightweight home slider for your mobile visitors."
-msgstr ""
+msgstr "Tạo một thanh trượt nhẹ hơn cho người xem bằng điện thoại của bạn."
 
 #: themeoptions/options.php:519
 msgid "Would you like to use this feature?"
-msgstr ""
+msgstr "Bạn có muốn sử dụng tính năng này?"
 
 #: themeoptions/options.php:520
 msgid ""
 "Choose if you would like to show a different slider on your home page for "
 "your mobile visitors."
 msgstr ""
+"Chọn nếu bạn muốn hiển thị một thanh trượt khác trên trang chủ của mình cho "
+"khách truy cập trên thiết bị di động."
 
 #: themeoptions/options.php:527
 msgid "Choose a Slider for Mobile"
-msgstr ""
+msgstr "Chọn Thanh trượt cho Điện thoại di động"
 
 #: themeoptions/options.php:528
 msgid "Choose which slider you would like to show for mobile viewers."
 msgstr ""
+"Chọn thanh trượt bạn muốn hiển thị cho người xem trên điện thoại di động."
 
 #: themeoptions/options.php:636
 msgid "Home Layout"
-msgstr ""
+msgstr "Giao diện Trang chủ"
 
 #: themeoptions/options.php:644
 msgid "Display a sidebar on the Home Page?"
-msgstr ""
+msgstr "Hiển thị thanh bên trên Trang chủ?"
 
 #: themeoptions/options.php:645
 msgid "This determines if there is a sidebar on the home page."
-msgstr ""
+msgstr "Điều này quyết định nếu có một thanh bên trên trang chủ."
 
 #: themeoptions/options.php:656
 msgid "Choose a Sidebar for your Home Page"
-msgstr ""
+msgstr "Chọn một thanh bên cho Trang chủ của bạn"
 
 #: themeoptions/options.php:667
 msgid "Homepage Layout Manager"
-msgstr ""
+msgstr "Trình quản lý bố cục trang chủ"
 
 #: themeoptions/options.php:668
 msgid "Organize how you want the layout to appear on the homepage"
-msgstr ""
+msgstr "Tổ chức cách bạn muốn bố cục xuất hiện trên trang chủ"
 
 #: themeoptions/options.php:672
 msgid "Latest Blog Posts"
-msgstr ""
+msgstr "Bài viết Blog mới nhất"
 
 #: themeoptions/options.php:673
 msgid "Portfolio Carousel"
-msgstr ""
+msgstr "Danh mục Carousel"
 
 #: themeoptions/options.php:674 themeoptions/options.php:778
 msgid "Icon Menu"
-msgstr ""
+msgstr "Menu Biểu tượng"
 
 #: themeoptions/options.php:677
 msgid "Page Title"
-msgstr ""
+msgstr "Tiêu đề Trang"
 
 #: themeoptions/options.php:678
 msgid "Page Content"
-msgstr ""
+msgstr "Nội dung Trang"
 
 #: themeoptions/options.php:687
 msgid "Home Blog Settings"
-msgstr ""
+msgstr "Cài đặt Trang chủ Blog"
 
 #: themeoptions/options.php:693
 msgid "Home Blog Title"
-msgstr ""
+msgstr "Tiêu đề Trang chủ Blog"
 
 #: themeoptions/options.php:694
 msgid "ex: Latest from the blog"
-msgstr ""
+msgstr "ví dụ: Mới nhất từ blog"
 
 #: themeoptions/options.php:700
 msgid "Choose How many posts on Homepage"
-msgstr ""
+msgstr "Chọn Có bao nhiêu bài viết trên Trang chủ"
 
 #: themeoptions/options.php:712
 msgid "Limit posts to a Category"
-msgstr ""
+msgstr "Giới hạn bài viết vào một loại"
 
 #: themeoptions/options.php:713
 msgid "Leave blank to select all"
-msgstr ""
+msgstr "Để trống để chọn tất cả"
 
 #: themeoptions/options.php:721
 msgid "Home Portfolio Carousel Settings"
-msgstr ""
+msgstr "Thiết đặt Danh mục Carousel Trang chủ"
 
 #: themeoptions/options.php:727
 msgid "Home Portfolio Carousel title"
-msgstr ""
+msgstr "Tiêu đề Danh mục Carousel Trang chủ"
 
 #: themeoptions/options.php:728
 msgid "ex: Portfolio Carousel title"
-msgstr ""
+msgstr "ví dụ: Tiêu đề Carousel Danh mục"
 
 #: themeoptions/options.php:736
 msgid "Portfolio Carousel Category Type"
-msgstr ""
+msgstr "Loại Mục Danh mục Carousel"
 
 #: themeoptions/options.php:737
 msgid "Leave blank to select all types"
-msgstr ""
+msgstr "Để trống để chọn tất cả các loại"
 
 #: themeoptions/options.php:745
 msgid "Choose how many portfolio items are in carousel"
-msgstr ""
+msgstr "Chọn bao nhiêu danh mục nằm trong băng chuyền"
 
 #: themeoptions/options.php:755
 msgid "Portfolio Carousel Order by"
-msgstr ""
+msgstr "Danh mục Carousel sắp xếp theo"
 
 #: themeoptions/options.php:756
 msgid "Choose how the portfolio items should be ordered in the carousel."
-msgstr ""
+msgstr "Chọn cách sắp xếp các danh mục trong băng chuyền."
 
 #: themeoptions/options.php:765
 msgid "Display Portfolio Types under Title"
-msgstr ""
+msgstr "Hiển thị các Loại Danh mục bên dưới Tiêu đề"
 
 #: themeoptions/options.php:772
 msgid "Home Icon Menu"
-msgstr ""
+msgstr "Menu Biểu tượng Trang chủ"
 
 #: themeoptions/options.php:779
 msgid "Choose your icons for the icon menu."
-msgstr ""
+msgstr "Chọn biểu tượng của bạn cho menu biểu tượng."
 
 #: themeoptions/options.php:786
 msgid "Choose how many columns in each row"
-msgstr ""
+msgstr "Chọn số cột trong mỗi hàng"
 
 #: themeoptions/options.php:796
 msgid "Page Content Options"
-msgstr ""
+msgstr "Tùy chọn nội dung trang"
 
 #: themeoptions/options.php:802
 msgid "Latest Post Display"
-msgstr ""
+msgstr "Hiển thị bài viết mới nhất"
 
 #: themeoptions/options.php:803
 msgid ""
 "If Latest Post page is font page. Choose to show full post or post excerpt."
 msgstr ""
+"Nếu trang bài mới nhất là trang chủ. Chọn hiển thị toàn bộ bài đăng hoặc "
+"trích đoạn bài đăng."
 
 #: themeoptions/options.php:813
 msgid ""
 "*NOTE: Make sure Virtue/Pinnacle Toolkit plugin is activated* <br>Go to "
 "Apperance > Theme Options > Home Layout for all home layout settings"
 msgstr ""
+"*LƯU Ý: Đảm bảo plugin Virtue/Pinnacle Toolkit được kích hoạt* <br>Chuyển "
+"đến Xuất hiện > Tuỳ chọn Chủ đề > Giao diện Trang chủ cho tất cả cài đặt bố "
+"cục trang chủ"
 
 #: themeoptions/options.php:823
 msgid "Shop Settings"
