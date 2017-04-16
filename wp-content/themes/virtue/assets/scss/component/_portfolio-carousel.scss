@@ -10,4 +10,12 @@
     .kad_portfolio_link {
         height: 100%;
     }
+    .portfolio_item {
+        .portfoliolink {
+            @include opacity(1);
+        }
+        .cportfoliotag {
+            font-size: 12px;
+        }
+    }
 }

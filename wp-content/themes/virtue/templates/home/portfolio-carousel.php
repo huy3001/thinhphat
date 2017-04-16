@@ -32,10 +32,10 @@
 					} else {
 						$portfolio_item_types = '';
 					}
-					$itemsize = 'tcol-lg-4 tcol-md-4 tcol-sm-4 tcol-xs-6 tcol-ss-12';
-					$slidewidth = 366;
-					$slideheight = 366;
-					$md = 3;
+					$itemsize = 'tcol-lg-3 tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+					$slidewidth = 269;
+					$slideheight = 269;
+					$md = 4;
 					$sm = 3;
 					$xs = 2;
 					$ss = 1; ?>

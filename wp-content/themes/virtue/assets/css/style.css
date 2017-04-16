@@ -1,5 +1,25 @@
 /* Virtue theme custom styles */
 
+/* border radius */
+
+/* box shadow */
+
+/* box sizing */
+
+/* calculate */
+
+/* transform */
+
+/* transition */
+
+/* opacity */
+
+/* breakpoint with one condition(min or max) */
+
+/* breakpoint with two conditions (min and max) */
+
+/* extend placeholder */
+
 /* Background */
 
 /* Color */
@@ -66,6 +86,19 @@ header #logo a.brand img {
   height: 100%;
 }
 
+/* line 14, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-carousel .portfolio_item .portfoliolink {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 17, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-carousel .portfolio_item .cportfoliotag {
+  font-size: 12px;
+}
+
 /* Portfolio grid styles */
 
 /* line 4, assets/scss/component/_portfolio-grid.scss */
@@ -81,4 +114,17 @@ header #logo a.brand img {
 #portfoliowrapper .imghoverclass,
 #portfoliowrapper .imghoverclass a {
   height: 100%;
+}
+
+/* line 14, assets/scss/component/_portfolio-grid.scss */
+
+#portfoliowrapper .portfolio_item .portfoliolink {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 17, assets/scss/component/_portfolio-grid.scss */
+
+#portfoliowrapper .portfolio_item .cportfoliotag {
+  font-size: 12px;
 }
