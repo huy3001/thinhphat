@@ -71,32 +71,58 @@ header #logo a.brand img {
 
 /* Portfolio carousel styles */
 
-/* line 4, assets/scss/component/_portfolio-carousel.scss */
+/* line 5, assets/scss/component/_portfolio-carousel.scss */
 
-#portfolio-carousel .kad_portfolio_item {
+#portfolio-carousel .kad_portfolio_item,
+#portfolio-list .kad_portfolio_item {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 8, assets/scss/component/_portfolio-carousel.scss */
+/* line 9, assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .grid_item,
 #portfolio-carousel .imghoverclass,
-#portfolio-carousel .kad_portfolio_link {
+#portfolio-carousel .kad_portfolio_link,
+#portfolio-list .grid_item,
+#portfolio-list .imghoverclass,
+#portfolio-list .kad_portfolio_link {
   height: 100%;
 }
 
-/* line 14, assets/scss/component/_portfolio-carousel.scss */
+/* line 15, assets/scss/component/_portfolio-carousel.scss */
 
-#portfolio-carousel .portfolio_item .portfoliolink {
+#portfolio-carousel .portfolio_item .portfoliolink,
+#portfolio-list .portfolio_item .portfoliolink {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 17, assets/scss/component/_portfolio-carousel.scss */
+/* line 18, assets/scss/component/_portfolio-carousel.scss */
 
-#portfolio-carousel .portfolio_item .cportfoliotag {
+#portfolio-carousel .portfolio_item .cportfoliotag,
+#portfolio-list .portfolio_item .cportfoliotag {
   font-size: 12px;
+}
+
+/* line 25, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .portfolio-grid {
+  margin-bottom: 30px;
+}
+
+/* line 27, assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .portfolio-grid:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+
+/* line 35, assets/scss/component/_portfolio-carousel.scss */
+
+.fredcarousel {
+  display: none;
 }
 
 /* Portfolio grid styles */
