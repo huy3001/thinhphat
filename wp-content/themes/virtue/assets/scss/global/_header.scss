@@ -1,10 +1,48 @@
 /* Header styles */
 
 header {
+    &.headerclass {
+        background-size: cover;
+    }
     #logo {
         a.brand {
             img {
                 max-width: 120px;
+            }
+        }
+    }
+    .nav-trigger-case {
+        .kad-navbtn,
+        .kad-menu-name {
+            line-height: 40px;
+        }
+        .kad-menu-name {
+            font-size: 15px;
+        }
+    }
+
+    @include bp(max-width, $tablet - 1) {
+        #topbar {
+            padding: 10px 0;
+            .topbarmenu {
+                display: none;
+            }
+            #topbar-search {
+                form {
+                    float: right;
+                    max-width: 200px;
+                }
+            }
+        }
+        #logo {
+            padding: 0;
+            position: absolute;
+            top: -50px;
+            left: 0;
+            a.brand {
+                img {
+                    max-width: 50px;
+                }
             }
         }
     }
@@ -22,7 +60,10 @@ header {
                 }
             }
             a {
+                color: $white;
                 font-family: $f-family;
+                font-weight: bold;
+                text-transform: uppercase;
             }
         }
     }
