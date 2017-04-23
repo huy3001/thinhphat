@@ -71,4 +71,8 @@
 
 </footer>
 
+<div class="phone-call">
+	<a href="tel:0963051248"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/phone.png" width="44" height="44" alt=""/></a>
+</div>
+
 <?php wp_footer(); ?>

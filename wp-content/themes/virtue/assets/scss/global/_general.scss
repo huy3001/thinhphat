@@ -3,3 +3,14 @@
 body {
     font-family: $f-family;
 }
+
+.phone-call {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1001;
+}
+
+@include bp(max-width, $tablet - 1) {
+
+}

@@ -26,12 +26,23 @@
 
 /* Font */
 
+/* Responsive */
+
 /* General styles */
 
 /* line 3, assets/scss/global/_general.scss */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* line 7, assets/scss/global/_general.scss */
+
+.phone-call {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 1001;
 }
 
 /* Header styles */
@@ -153,4 +164,42 @@ header #logo a.brand img {
 
 #portfoliowrapper .portfolio_item .cportfoliotag {
   font-size: 12px;
+}
+
+/* Home page styles */
+
+/* line 4, assets/scss/page/_home.scss */
+
+.home-portfolio.home-padding {
+  padding-top: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 11, assets/scss/page/_home.scss */
+
+  .kad-desktop-slider.sliderclass {
+    padding: 0;
+  }
+
+  /* line 16, assets/scss/page/_home.scss */
+
+  .portfolio-list h3 {
+    font-size: 25px;
+  }
+}
+
+/* Portfolio detail page styles */
+
+@media only screen and (max-width: 767px) {
+  /* line 5, assets/scss/page/_portfolio-detail.scss */
+
+  .single-portfolio .portfolionav {
+    display: none;
+  }
+
+  /* line 8, assets/scss/page/_portfolio-detail.scss */
+
+  .single-portfolio .entry-title {
+    font-size: 30px;
+  }
 }

@@ -1,0 +1,20 @@
+/* Home page styles */
+
+.home-portfolio {
+    &.home-padding {
+        padding-top: 0;
+    }
+}
+
+@include bp(max-width, $tablet - 1) {
+    .kad-desktop-slider {
+        &.sliderclass {
+            padding: 0;
+        }
+    }
+    .portfolio-list {
+        h3 {
+            font-size: 25px;
+        }
+    }
+}

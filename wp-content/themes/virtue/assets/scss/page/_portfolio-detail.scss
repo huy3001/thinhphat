@@ -1,0 +1,12 @@
+/* Portfolio detail page styles */
+
+.single-portfolio {
+    @include bp(max-width, $tablet - 1) {
+        .portfolionav {
+            display: none;
+        }
+        .entry-title {
+            font-size: 30px;
+        }
+    }
+}
