@@ -13,12 +13,12 @@
         $logocclass = 'col-md-6'; 
         $menulclass = 'col-md-6';
       } else {
-        $logocclass = 'col-md-4'; 
-        $menulclass = 'col-md-8';
+        $logocclass = 'col-md-2';
+        $menulclass = 'col-md-10';
       } 
     } else {
-      $logocclass = 'col-md-4';
-      $menulclass = 'col-md-8'; 
+      $logocclass = 'col-md-2';
+      $menulclass = 'col-md-10';
     }?>
 <div class="container">
   <div class="row">
