@@ -7,7 +7,7 @@
     	echo '<h3 class="title">'.__('Recent Projects', 'virtue').'</h3>';
     } ?>
         <div class="portfolio-carouselcase fredcarousel">
-            <?php $itemsize = 'tcol-lg-3 tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12';
+            <?php $itemsize = 'tcol-lg-3 tcol-md-3 tcol-sm-4 tcol-xs-6 tcol-ss-12 kad_portfolio_item';
             $slidewidth = 269;
             $slideheight = 269;
             $md = 4;
@@ -42,7 +42,7 @@
 										$image = aq_resize($thumbnailURL, $slidewidth, $slideheight, true);
 										if(empty($image)) {$image = $thumbnailURL;}?>
 										<div class="imghoverclass">
-		                                       <a href="<?php the_permalink();  ?>" title="<?php the_title(); ?>">
+		                                       <a href="<?php the_permalink();  ?>" title="<?php the_title(); ?>" class="kad_portfolio_link">
 		                                       <img src="<?php echo esc_url($image); ?>" alt="<?php the_title(); ?>" width="<?php echo esc_attr($slidewidth);?>" height="<?php echo esc_attr($slideheight);?>" class="lightboxhover" style="display: block;">
 		                                       </a> 
 		                                </div>

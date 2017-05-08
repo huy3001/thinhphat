@@ -188,12 +188,6 @@ header .nav-trigger-case .kad-menu-name {
   display: table;
 }
 
-/* line 35, assets/scss/component/_portfolio-carousel.scss */
-
-.fredcarousel {
-  display: none;
-}
-
 /* Portfolio grid styles */
 
 /* line 4, assets/scss/component/_portfolio-grid.scss */
@@ -232,14 +226,20 @@ header .nav-trigger-case .kad-menu-name {
   padding-top: 0;
 }
 
+/* line 7, assets/scss/page/_home.scss */
+
+.home-portfolio .fredcarousel {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
-  /* line 11, assets/scss/page/_home.scss */
+  /* line 14, assets/scss/page/_home.scss */
 
   .kad-desktop-slider.sliderclass {
     padding: 0;
   }
 
-  /* line 16, assets/scss/page/_home.scss */
+  /* line 19, assets/scss/page/_home.scss */
 
   .portfolio-list h3 {
     font-size: 25px;
