@@ -4,6 +4,9 @@
     &.home-padding {
         padding-top: 0;
     }
+    .fredcarousel {
+        display: none;
+    }
 }
 
 @include bp(max-width, $tablet - 1) {
