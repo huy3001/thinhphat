@@ -4,6 +4,14 @@ header {
     &.headerclass {
         background-size: cover;
     }
+    .tagline {
+        background: $green;
+        .kad_tagline {
+            color: $red;
+            text-align: center;
+            margin: 10px 0;
+        }
+    }
     #logo {
         a.brand {
             img {
@@ -18,6 +26,15 @@ header {
         }
         .kad-menu-name {
             font-size: 15px;
+        }
+    }
+
+    @include bp(max-width, $laptop - 1) {
+        .tagline {
+            .kad_tagline {
+                font-size: 30px;
+                line-height: 40px;
+            }
         }
     }
 
@@ -37,12 +54,18 @@ header {
         #logo {
             padding: 0;
             position: absolute;
-            top: -50px;
+            top: -90px;
             left: 0;
             a.brand {
                 img {
                     max-width: 50px;
                 }
+            }
+        }
+        .tagline {
+            .kad_tagline {
+                font-size: 15px;
+                line-height: 20px;
             }
         }
     }

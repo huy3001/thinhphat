@@ -53,69 +53,99 @@ header.headerclass {
   background-size: cover;
 }
 
+/* line 7, assets/scss/global/_header.scss */
+
+header .tagline {
+  background: #00ff00;
+}
+
 /* line 9, assets/scss/global/_header.scss */
+
+header .tagline .kad_tagline {
+  color: #ff0000;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* line 17, assets/scss/global/_header.scss */
 
 header #logo a.brand img {
   max-width: 120px;
 }
 
-/* line 15, assets/scss/global/_header.scss */
+/* line 23, assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-navbtn,
 header .nav-trigger-case .kad-menu-name {
   line-height: 40px;
 }
 
-/* line 19, assets/scss/global/_header.scss */
+/* line 27, assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-menu-name {
   font-size: 15px;
 }
 
+@media only screen and (max-width: 991px) {
+  /* line 34, assets/scss/global/_header.scss */
+
+  header .tagline .kad_tagline {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
 @media only screen and (max-width: 767px) {
-  /* line 25, assets/scss/global/_header.scss */
+  /* line 42, assets/scss/global/_header.scss */
 
   header #topbar {
     padding: 10px 0;
   }
 
-  /* line 27, assets/scss/global/_header.scss */
+  /* line 44, assets/scss/global/_header.scss */
 
   header #topbar .topbarmenu {
     display: none;
   }
 
-  /* line 31, assets/scss/global/_header.scss */
+  /* line 48, assets/scss/global/_header.scss */
 
   header #topbar #topbar-search form {
     float: right;
     max-width: 200px;
   }
 
-  /* line 37, assets/scss/global/_header.scss */
+  /* line 54, assets/scss/global/_header.scss */
 
   header #logo {
     padding: 0;
     position: absolute;
-    top: -50px;
+    top: -90px;
     left: 0;
   }
 
-  /* line 43, assets/scss/global/_header.scss */
+  /* line 60, assets/scss/global/_header.scss */
 
   header #logo a.brand img {
     max-width: 50px;
   }
+
+  /* line 66, assets/scss/global/_header.scss */
+
+  header .tagline .kad_tagline {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
-/* line 57, assets/scss/global/_header.scss */
+/* line 80, assets/scss/global/_header.scss */
 
 #nav-main ul.sf-menu li:hover > a,
 #nav-main ul.sf-menu li.current-menu-item > a {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 62, assets/scss/global/_header.scss */
+/* line 85, assets/scss/global/_header.scss */
 
 #nav-main ul.sf-menu a {
   color: #ffffff;
