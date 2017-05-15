@@ -51,10 +51,6 @@ header {
         }
     }
 
-    #kad-mobile-nav {
-
-    }
-
     @include bp(max-width, $desktop - 1) {
         .tagline {
             .kad_tagline {
@@ -71,6 +67,16 @@ header {
         }
         #nav-main ul.sf-menu {
             display: block;
+        }
+        #nav-main {
+            ul {
+                &.sf-menu {
+                    a {
+                        font-size: 13px;
+                        padding: 10px;
+                    }
+                }
+            }
         }
         #mobile-nav-trigger {
             display: none;
