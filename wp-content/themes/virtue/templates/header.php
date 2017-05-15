@@ -10,11 +10,11 @@
 			$logocclass = 'col-md-12';
 			$menulclass = 'col-md-12';
 		} else if ( $virtue['logo_layout'] == 'logohalf' ) {
-			$logocclass = 'col-md-6';
-			$menulclass = 'col-md-6';
+			$logocclass = 'col-md-6 col-sm-6';
+			$menulclass = 'col-md-6 col-sm-6';
 		} else {
-			$logocclass = 'col-md-2';
-			$menulclass = 'col-md-10';
+			$logocclass = 'col-md-2 col-sm-2';
+			$menulclass = 'col-md-10 col-sm-10';
 		}
 	} else {
 		$logocclass = 'col-md-2';
@@ -22,50 +22,52 @@
 	}?>
 	<div class="tagline">
 		<div class="container">
-			<div class="row">
-				<?php if ( isset( $virtue['logo_below_text'] ) && ! empty( $virtue['logo_below_text'] ) ) { ?>
-					<p class="kad_tagline belowlogo-text"><?php echo $virtue['logo_below_text']; ?></p>
-				<?php } ?>
-			</div>
-			<!-- Close Row -->
+            <div class="row">
+                <div class="<?php echo esc_attr( $logocclass ); ?> clearfix kad-header-left">
+                    <div id="logo" class="logocase">
+                        <a class="brand logofont" href="<?php echo home_url(); ?>/">
+                            <?php if ( ! empty( $virtue['x1_virtue_logo_upload']['url'] ) ) { ?>
+                                <div id="thelogo">
+                                    <img src="<?php echo esc_url( $virtue['x1_virtue_logo_upload']['url'] ); ?>"
+                                         alt="<?php bloginfo( 'name' ); ?>" class="kad-standard-logo"/>
+                                    <?php if ( ! empty( $virtue['x2_virtue_logo_upload']['url'] ) ) { ?>
+                                        <img src="<?php echo esc_url( $virtue['x2_virtue_logo_upload']['url'] ); ?>"
+                                             alt="<?php bloginfo( 'name' ); ?>" class="kad-retina-logo"
+                                             style="max-height:<?php echo esc_attr( $virtue['x1_virtue_logo_upload']['height'] ); ?>px"/> <?php } ?>
+                                </div>
+                            <?php
+                            } else {
+                                echo apply_filters( 'kad_site_name', get_bloginfo( 'name' ) );
+                            } ?>
+                        </a>
+                    </div>
+                    <!-- Close #logo -->
+                </div>
+                <!-- close logo span -->
+                <div class="<?php echo esc_attr( $menulclass ); ?> kad-header-right">
+                    <?php if ( isset( $virtue['logo_below_text'] ) && ! empty( $virtue['logo_below_text'] ) ) { ?>
+                        <p class="kad_tagline belowlogo-text"><?php echo $virtue['logo_below_text']; ?></p>
+                    <?php } ?>
+                </div> <!-- Close menuclass-->
+            </div>
+            <!-- Close Row -->
 		</div>
 		<!-- Close Container -->
 	</div>
 	<div class="container">
-		<div class="row">
-			<div class="<?php echo esc_attr( $logocclass ); ?> clearfix kad-header-left">
-				<div id="logo" class="logocase">
-					<a class="brand logofont" href="<?php echo home_url(); ?>/">
-						<?php if ( ! empty( $virtue['x1_virtue_logo_upload']['url'] ) ) { ?>
-							<div id="thelogo">
-								<img src="<?php echo esc_url( $virtue['x1_virtue_logo_upload']['url'] ); ?>"
-								     alt="<?php bloginfo( 'name' ); ?>" class="kad-standard-logo"/>
-								<?php if ( ! empty( $virtue['x2_virtue_logo_upload']['url'] ) ) { ?>
-									<img src="<?php echo esc_url( $virtue['x2_virtue_logo_upload']['url'] ); ?>"
-									     alt="<?php bloginfo( 'name' ); ?>" class="kad-retina-logo"
-									     style="max-height:<?php echo esc_attr( $virtue['x1_virtue_logo_upload']['height'] ); ?>px"/> <?php } ?>
-							</div>
-						<?php
-						} else {
-							echo apply_filters( 'kad_site_name', get_bloginfo( 'name' ) );
-						} ?>
-					</a>
-				</div>
-				<!-- Close #logo -->
-			</div>
-			<!-- close logo span -->
-			<?php if ( has_nav_menu( 'primary_navigation' ) ) : ?>
-				<div class="<?php echo esc_attr( $menulclass ); ?> kad-header-right">
-					<nav id="nav-main" class="clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
-						<?php wp_nav_menu( array(
-								'theme_location' => 'primary_navigation',
-								'menu_class'     => 'sf-menu'
-							) ); ?>
-					</nav>
-				</div> <!-- Close menuclass-->
-			<?php endif; ?>
-		</div>
-		<!-- Close Row -->
+        <div class="row">
+            <?php if ( has_nav_menu( 'primary_navigation' ) ) : ?>
+                <div class="col-md-12 kad-header-menu">
+                    <nav id="nav-main" class="clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        <?php wp_nav_menu( array(
+                            'theme_location' => 'primary_navigation',
+                            'menu_class'     => 'sf-menu'
+                        ) ); ?>
+                    </nav>
+                </div> <!-- Close header menu-->
+            <?php endif; ?>
+        </div>
+        <!-- Close Row -->
 		<?php if ( has_nav_menu( 'mobile_navigation' ) ) : ?>
 			<div id="mobile-nav-trigger" class="nav-trigger">
 				<button class="nav-trigger-case mobileclass collapsed" data-toggle="collapse"

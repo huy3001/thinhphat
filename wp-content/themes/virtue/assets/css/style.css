@@ -30,13 +30,13 @@
 
 /* General styles */
 
-/* line 3, assets/scss/global/_general.scss */
+/* line 3, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* line 7, assets/scss/global/_general.scss */
+/* line 7, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
 
 .phone-call {
   position: fixed;
@@ -47,122 +47,161 @@ body {
 
 /* Header styles */
 
-/* line 4, assets/scss/global/_header.scss */
+/* line 4, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header.headerclass {
   background-size: cover;
 }
 
-/* line 7, assets/scss/global/_header.scss */
+/* line 7, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .tagline {
   background: #00ff00;
 }
 
-/* line 9, assets/scss/global/_header.scss */
+/* line 9, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .tagline .kad_tagline {
   color: #ff0000;
+  line-height: 106px;
   text-align: center;
-  margin: 10px 0;
+  margin: 0;
 }
 
-/* line 17, assets/scss/global/_header.scss */
+/* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header #logo a.brand img {
   max-width: 120px;
 }
 
-/* line 23, assets/scss/global/_header.scss */
+/* line 24, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-navbtn,
 header .nav-trigger-case .kad-menu-name {
   line-height: 40px;
 }
 
-/* line 27, assets/scss/global/_header.scss */
+/* line 28, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-menu-name {
   font-size: 15px;
 }
 
-@media only screen and (max-width: 991px) {
-  /* line 34, assets/scss/global/_header.scss */
+/* line 32, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
-  header .tagline .kad_tagline {
-    font-size: 30px;
-    line-height: 40px;
-  }
+header #nav-main {
+  margin: 0;
 }
 
-@media only screen and (max-width: 767px) {
-  /* line 42, assets/scss/global/_header.scss */
+/* line 39, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
-  header #topbar {
-    padding: 10px 0;
-  }
-
-  /* line 44, assets/scss/global/_header.scss */
-
-  header #topbar .topbarmenu {
-    display: none;
-  }
-
-  /* line 48, assets/scss/global/_header.scss */
-
-  header #topbar #topbar-search form {
-    float: right;
-    max-width: 200px;
-  }
-
-  /* line 54, assets/scss/global/_header.scss */
-
-  header #logo {
-    padding: 0;
-    position: absolute;
-    top: -90px;
-    left: 0;
-  }
-
-  /* line 60, assets/scss/global/_header.scss */
-
-  header #logo a.brand img {
-    max-width: 50px;
-  }
-
-  /* line 66, assets/scss/global/_header.scss */
-
-  header .tagline .kad_tagline {
-    font-size: 15px;
-    line-height: 20px;
-  }
-}
-
-/* line 80, assets/scss/global/_header.scss */
-
-#nav-main ul.sf-menu li:hover > a,
-#nav-main ul.sf-menu li.current-menu-item > a {
+header #nav-main ul.sf-menu li:hover > a,
+header #nav-main ul.sf-menu li.current-menu-item > a {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 85, assets/scss/global/_header.scss */
+/* line 44, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
-#nav-main ul.sf-menu a {
+header #nav-main ul.sf-menu a {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 1199px) {
+  /* line 60, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header .tagline .kad_tagline {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* line 68, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header .tagline .kad_tagline {
+    font-size: 30px;
+  }
+
+  /* line 72, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #nav-main ul.sf-menu {
+    display: block;
+  }
+
+  /* line 75, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #mobile-nav-trigger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /* line 81, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #topbar {
+    padding: 10px 0;
+  }
+
+  /* line 83, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #topbar .topbarmenu {
+    display: none;
+  }
+
+  /* line 87, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #topbar #topbar-search form {
+    float: right;
+    max-width: 200px;
+  }
+
+  /* line 93, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #logo {
+    padding: 0;
+    position: absolute;
+    top: -50px;
+    left: 0;
+  }
+
+  /* line 99, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #logo a.brand img {
+    max-width: 50px;
+  }
+
+  /* line 105, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header .tagline .kad_tagline {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px 0;
+  }
+
+  /* line 111, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #nav-main ul.sf-menu {
+    display: none;
+  }
+
+  /* line 114, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #mobile-nav-trigger {
+    display: block;
+  }
+}
+
 /* Footer styles */
 
-/* line 4, assets/scss/global/_footer.scss */
+/* line 4, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_footer.scss */
 
 .footercredits p {
   font-size: 12px !important;
 }
 
-/* line 12, assets/scss/global/_footer.scss */
+/* line 12, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_footer.scss */
 
 .footernav ul li a {
   font-size: 12px !important;
@@ -170,7 +209,7 @@ header .nav-trigger-case .kad-menu-name {
 
 /* Portfolio carousel styles */
 
-/* line 5, assets/scss/component/_portfolio-carousel.scss */
+/* line 5, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .kad_portfolio_item,
 #portfolio-list .kad_portfolio_item {
@@ -178,7 +217,7 @@ header .nav-trigger-case .kad-menu-name {
   padding-bottom: 10px;
 }
 
-/* line 9, assets/scss/component/_portfolio-carousel.scss */
+/* line 9, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .grid_item,
 #portfolio-carousel .imghoverclass,
@@ -189,7 +228,7 @@ header .nav-trigger-case .kad-menu-name {
   height: 100%;
 }
 
-/* line 15, assets/scss/component/_portfolio-carousel.scss */
+/* line 15, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .portfolio_item .portfoliolink,
 #portfolio-list .portfolio_item .portfoliolink {
@@ -197,20 +236,20 @@ header .nav-trigger-case .kad-menu-name {
   filter: alpha(opacity=100);
 }
 
-/* line 18, assets/scss/component/_portfolio-carousel.scss */
+/* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .portfolio_item .cportfoliotag,
 #portfolio-list .portfolio_item .cportfoliotag {
   font-size: 12px;
 }
 
-/* line 25, assets/scss/component/_portfolio-carousel.scss */
+/* line 25, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-list .portfolio-grid {
   margin-bottom: 30px;
 }
 
-/* line 27, assets/scss/component/_portfolio-carousel.scss */
+/* line 27, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-list .portfolio-grid:after {
   content: '';
@@ -220,14 +259,14 @@ header .nav-trigger-case .kad-menu-name {
 
 /* Portfolio grid styles */
 
-/* line 4, assets/scss/component/_portfolio-grid.scss */
+/* line 4, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-grid.scss */
 
 #portfoliowrapper .kad_portfolio_item {
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 8, assets/scss/component/_portfolio-grid.scss */
+/* line 8, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-grid.scss */
 
 #portfoliowrapper .grid_item,
 #portfoliowrapper .imghoverclass,
@@ -235,14 +274,14 @@ header .nav-trigger-case .kad-menu-name {
   height: 100%;
 }
 
-/* line 14, assets/scss/component/_portfolio-grid.scss */
+/* line 14, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-grid.scss */
 
 #portfoliowrapper .portfolio_item .portfoliolink {
   opacity: 1;
   filter: alpha(opacity=100);
 }
 
-/* line 17, assets/scss/component/_portfolio-grid.scss */
+/* line 17, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-grid.scss */
 
 #portfoliowrapper .portfolio_item .cportfoliotag {
   font-size: 12px;
@@ -250,26 +289,26 @@ header .nav-trigger-case .kad-menu-name {
 
 /* Home page styles */
 
-/* line 4, assets/scss/page/_home.scss */
+/* line 4, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_home.scss */
 
 .home-portfolio.home-padding {
   padding-top: 0;
 }
 
-/* line 7, assets/scss/page/_home.scss */
+/* line 7, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_home.scss */
 
 .home-portfolio .fredcarousel {
   display: none;
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 14, assets/scss/page/_home.scss */
+  /* line 14, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_home.scss */
 
   .kad-desktop-slider.sliderclass {
     padding: 0;
   }
 
-  /* line 19, assets/scss/page/_home.scss */
+  /* line 19, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_home.scss */
 
   .portfolio-list h3 {
     font-size: 25px;
@@ -279,13 +318,13 @@ header .nav-trigger-case .kad-menu-name {
 /* Portfolio detail page styles */
 
 @media only screen and (max-width: 767px) {
-  /* line 5, assets/scss/page/_portfolio-detail.scss */
+  /* line 5, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
 
   .single-portfolio .portfolionav {
     display: none;
   }
 
-  /* line 8, assets/scss/page/_portfolio-detail.scss */
+  /* line 8, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
 
   .single-portfolio .entry-title {
     font-size: 30px;

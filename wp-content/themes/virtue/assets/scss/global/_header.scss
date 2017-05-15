@@ -8,8 +8,9 @@ header {
         background: $green;
         .kad_tagline {
             color: $red;
+            line-height: 106px;
             text-align: center;
-            margin: 10px 0;
+            margin: 0;
         }
     }
     #logo {
@@ -28,13 +29,51 @@ header {
             font-size: 15px;
         }
     }
+    #nav-main {
+        margin: 0;
+        ul {
+            &.sf-menu {
+                li {
+                    &:hover,
+                    &.current-menu-item {
+                        > a {
+                            background: $bg-menu-active;
+                        }
+                    }
+                }
+                a {
+                    color: $white;
+                    font-family: $f-family;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+
+    #kad-mobile-nav {
+
+    }
+
+    @include bp(max-width, $desktop - 1) {
+        .tagline {
+            .kad_tagline {
+                font-size: 35px;
+            }
+        }
+    }
 
     @include bp(max-width, $laptop - 1) {
         .tagline {
             .kad_tagline {
                 font-size: 30px;
-                line-height: 40px;
             }
+        }
+        #nav-main ul.sf-menu {
+            display: block;
+        }
+        #mobile-nav-trigger {
+            display: none;
         }
     }
 
@@ -54,7 +93,7 @@ header {
         #logo {
             padding: 0;
             position: absolute;
-            top: -90px;
+            top: -50px;
             left: 0;
             a.brand {
                 img {
@@ -64,30 +103,16 @@ header {
         }
         .tagline {
             .kad_tagline {
-                font-size: 15px;
+                font-size: 14px;
                 line-height: 20px;
+                margin: 5px 0;
             }
         }
-    }
-}
-
-#nav-main {
-    ul {
-        &.sf-menu {
-            li {
-                &:hover,
-                &.current-menu-item {
-                    > a {
-                        background: $bg-menu-active;
-                    }
-                }
-            }
-            a {
-                color: $white;
-                font-family: $f-family;
-                font-weight: bold;
-                text-transform: uppercase;
-            }
+        #nav-main ul.sf-menu {
+            display: none;
+        }
+        #mobile-nav-trigger {
+            display: block;
         }
     }
 }

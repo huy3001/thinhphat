@@ -2,7 +2,7 @@
   <div id="topbar" class="topclass">
     <div class="container">
       <div class="row">
-        <div class="col-md-6 col-sm-6 kad-topbar-left">
+        <div class="col-md-6 col-sm-8 kad-topbar-left">
           <div class="topbarmenu clearfix">
           <?php if (has_nav_menu('topbar_navigation')) :
               wp_nav_menu(array('theme_location' => 'topbar_navigation', 'menu_class' => 'sf-menu'));
@@ -51,7 +51,7 @@
             }?>
           </div>
         </div><!-- close col-md-6 --> 
-        <div class="col-md-6 col-sm-6 kad-topbar-right">
+        <div class="col-md-6 col-sm-4 kad-topbar-right">
           <div id="topbar-search" class="topbar-widget">
             <?php if(kadence_display_topbar_widget()) {
                     if(is_active_sidebar('topbarright')) {
