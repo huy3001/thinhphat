@@ -4,6 +4,15 @@ header {
     &.headerclass {
         background-size: cover;
     }
+    &.fixed {
+        padding-bottom: 48px;
+        .header-nav {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 1111;
+        }
+    }
     .tagline {
         background: $green;
         .kad_tagline {
@@ -19,6 +28,10 @@ header {
                 max-width: 120px;
             }
         }
+    }
+    .header-nav {
+        background: $blue;
+        width: 100%;
     }
     .nav-trigger-case {
         .kad-navbtn,
@@ -46,6 +59,7 @@ header {
                     font-family: $f-family;
                     font-weight: bold;
                     text-transform: uppercase;
+                    padding: 15px 20px;
                 }
             }
         }
@@ -60,6 +74,9 @@ header {
     }
 
     @include bp(max-width, $laptop - 1) {
+        &.fixed {
+            padding-bottom: 38px;
+        }
         .tagline {
             .kad_tagline {
                 font-size: 30px;
@@ -84,6 +101,9 @@ header {
     }
 
     @include bp(max-width, $tablet - 1) {
+        &.fixed {
+            padding-bottom: 40px;
+        }
         #topbar {
             padding: 10px 0;
             .topbarmenu {
@@ -119,6 +139,9 @@ header {
         }
         #mobile-nav-trigger {
             display: block;
+            .mobileclass {
+                background: none;
+            }
         }
     }
 }

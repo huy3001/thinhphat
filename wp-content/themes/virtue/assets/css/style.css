@@ -55,11 +55,26 @@ header.headerclass {
 
 /* line 7, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
+header.fixed {
+  padding-bottom: 48px;
+}
+
+/* line 9, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+header.fixed .header-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1111;
+}
+
+/* line 16, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
 header .tagline {
   background: #00ff00;
 }
 
-/* line 9, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .tagline .kad_tagline {
   color: #ff0000;
@@ -68,49 +83,57 @@ header .tagline .kad_tagline {
   margin: 0;
 }
 
-/* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 27, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header #logo a.brand img {
   max-width: 120px;
 }
 
-/* line 24, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 32, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+header .header-nav {
+  background: #00bfff;
+  width: 100%;
+}
+
+/* line 37, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-navbtn,
 header .nav-trigger-case .kad-menu-name {
   line-height: 40px;
 }
 
-/* line 28, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 41, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header .nav-trigger-case .kad-menu-name {
   font-size: 15px;
 }
 
-/* line 32, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 45, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header #nav-main {
   margin: 0;
 }
 
-/* line 39, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 52, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header #nav-main ul.sf-menu li:hover > a,
 header #nav-main ul.sf-menu li.current-menu-item > a {
   background: rgba(0, 0, 0, 0.1);
 }
 
-/* line 44, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+/* line 57, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
 header #nav-main ul.sf-menu a {
   color: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  padding: 15px 20px;
 }
 
 @media only screen and (max-width: 1199px) {
-  /* line 56, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 70, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header .tagline .kad_tagline {
     font-size: 35px;
@@ -118,26 +141,32 @@ header #nav-main ul.sf-menu a {
 }
 
 @media only screen and (max-width: 991px) {
-  /* line 64, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 77, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header.fixed {
+    padding-bottom: 38px;
+  }
+
+  /* line 81, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header .tagline .kad_tagline {
     font-size: 30px;
   }
 
-  /* line 68, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 85, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #nav-main ul.sf-menu {
     display: block;
   }
 
-  /* line 74, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 91, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #nav-main ul.sf-menu a {
     font-size: 13px;
     padding: 10px;
   }
 
-  /* line 81, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 98, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #mobile-nav-trigger {
     display: none;
@@ -145,26 +174,32 @@ header #nav-main ul.sf-menu a {
 }
 
 @media only screen and (max-width: 767px) {
-  /* line 87, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 104, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header.fixed {
+    padding-bottom: 40px;
+  }
+
+  /* line 107, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #topbar {
     padding: 10px 0;
   }
 
-  /* line 89, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 109, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #topbar .topbarmenu {
     display: none;
   }
 
-  /* line 93, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 113, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #topbar #topbar-search form {
     float: right;
     max-width: 200px;
   }
 
-  /* line 99, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 119, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #logo {
     padding: 0;
@@ -173,13 +208,13 @@ header #nav-main ul.sf-menu a {
     left: 0;
   }
 
-  /* line 105, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 125, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #logo a.brand img {
     max-width: 50px;
   }
 
-  /* line 111, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 131, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header .tagline .kad_tagline {
     font-size: 14px;
@@ -187,16 +222,22 @@ header #nav-main ul.sf-menu a {
     margin: 5px 0;
   }
 
-  /* line 117, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 137, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #nav-main ul.sf-menu {
     display: none;
   }
 
-  /* line 120, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+  /* line 140, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
 
   header #mobile-nav-trigger {
     display: block;
+  }
+
+  /* line 142, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_header.scss */
+
+  header #mobile-nav-trigger .mobileclass {
+    background: none;
   }
 }
 

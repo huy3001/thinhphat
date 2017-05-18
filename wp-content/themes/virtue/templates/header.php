@@ -20,6 +20,7 @@
 		$logocclass = 'col-md-2';
 		$menulclass = 'col-md-10';
 	}?>
+
 	<div class="tagline">
 		<div class="container">
             <div class="row">
@@ -54,51 +55,55 @@
 		</div>
 		<!-- Close Container -->
 	</div>
-	<div class="container">
-        <div class="row">
-            <?php if ( has_nav_menu( 'primary_navigation' ) ) : ?>
-                <div class="col-md-12 kad-header-menu">
-                    <nav id="nav-main" class="clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
-                        <?php wp_nav_menu( array(
-                            'theme_location' => 'primary_navigation',
-                            'menu_class'     => 'sf-menu'
-                        ) ); ?>
-                    </nav>
-                </div> <!-- Close header menu-->
+
+    <div class="header-nav">
+        <div class="container">
+            <div class="row">
+                <?php if ( has_nav_menu( 'primary_navigation' ) ) : ?>
+                    <div class="col-md-12 kad-header-menu">
+                        <nav id="nav-main" class="clearfix" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                            <?php wp_nav_menu( array(
+                                'theme_location' => 'primary_navigation',
+                                'menu_class'     => 'sf-menu'
+                            ) ); ?>
+                        </nav>
+                    </div> <!-- Close header menu-->
+                <?php endif; ?>
+            </div>
+            <!-- Close Row -->
+            <?php if ( has_nav_menu( 'mobile_navigation' ) ) : ?>
+                <div id="mobile-nav-trigger" class="nav-trigger">
+                    <button class="nav-trigger-case mobileclass collapsed" data-toggle="collapse"
+                            data-target=".kad-nav-collapse">
+                        <span class="kad-navbtn"><i class="icon-reorder"></i></span>
+                        <span class="kad-menu-name"><?php echo __( 'Menu', 'virtue' ); ?></span>
+                    </button>
+                </div>
+                <div id="kad-mobile-nav" class="kad-mobile-nav">
+                    <div class="kad-nav-inner mobileclass">
+                        <div class="kad-nav-collapse">
+                            <?php if ( isset( $virtue['mobile_submenu_collapse'] ) && $virtue['mobile_submenu_collapse'] == '1' ) {
+                                wp_nav_menu( array(
+                                    'theme_location' => 'mobile_navigation',
+                                    'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'menu_class'     => 'kad-mnav',
+                                    'walker'         => new kadence_mobile_walker()
+                                ) );
+                            } else {
+                                wp_nav_menu( array(
+                                    'theme_location' => 'mobile_navigation',
+                                    'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'menu_class'     => 'kad-mnav'
+                                ) );
+                            } ?>
+                        </div>
+                    </div>
+                </div>
             <?php endif; ?>
         </div>
-        <!-- Close Row -->
-		<?php if ( has_nav_menu( 'mobile_navigation' ) ) : ?>
-			<div id="mobile-nav-trigger" class="nav-trigger">
-				<button class="nav-trigger-case mobileclass collapsed" data-toggle="collapse"
-				        data-target=".kad-nav-collapse">
-					<span class="kad-navbtn"><i class="icon-reorder"></i></span>
-					<span class="kad-menu-name"><?php echo __( 'Menu', 'virtue' ); ?></span>
-				</button>
-			</div>
-			<div id="kad-mobile-nav" class="kad-mobile-nav">
-				<div class="kad-nav-inner mobileclass">
-					<div class="kad-nav-collapse">
-						<?php if ( isset( $virtue['mobile_submenu_collapse'] ) && $virtue['mobile_submenu_collapse'] == '1' ) {
-							wp_nav_menu( array(
-									'theme_location' => 'mobile_navigation',
-									'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-									'menu_class'     => 'kad-mnav',
-									'walker'         => new kadence_mobile_walker()
-								) );
-						} else {
-							wp_nav_menu( array(
-									'theme_location' => 'mobile_navigation',
-									'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-									'menu_class'     => 'kad-mnav'
-								) );
-						} ?>
-					</div>
-				</div>
-			</div>
-		<?php endif; ?>
-	</div>
-	<!-- Close Container -->
+        <!-- Close Container -->
+    </div>
+
 	<?php do_action( 'kt_before_secondary_navigation' );
 
 	if ( has_nav_menu( 'secondary_navigation' ) ) : ?>
