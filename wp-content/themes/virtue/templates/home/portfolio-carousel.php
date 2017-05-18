@@ -166,16 +166,9 @@
                             <a href="<?php the_permalink() ?>" class="portfoliolink">
                                 <div class="piteminfo">
                                     <h5><?php the_title(); ?></h5>
-                                    <?php if ($portfolio_item_types == 1) {
-                                        $terms = get_the_terms($post->ID, 'portfolio-type');
-                                        if ($terms) { ?>
-                                            <p class="cportfoliotag"><?php $output = array();
-                                                foreach ($terms as $term) {
-                                                    $output[] = $term->name;
-                                                }
-                                                echo implode(', ', $output); ?></p>
-                                        <?php }
-                                    } ?>
+                                    <?php if ($portfolio_item_types == 1) { ?>
+                                            <p class="cportfoliotag"><?php echo $cat->name; ?></p>
+                                    <?php } ?>
                                 </div>
                             </a>
                         </div>
