@@ -124,7 +124,9 @@
         $temp = $wp_query;
         $wp_query = null;
         $wp_query = new WP_Query();
-        $categories = get_terms('portfolio-type');
+        $categories = get_terms('portfolio-type', array(
+            'order' => 'DESC'
+        ));
         foreach ($categories as $cat) {
             $wp_query->query(array(
                     'orderby' => $hp_orderby,
