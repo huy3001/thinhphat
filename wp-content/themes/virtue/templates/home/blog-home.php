@@ -142,7 +142,7 @@
 			                        		</div>
 			                        </header>
 		                        	<div class="entry-content">
-		                          		<p><?php echo virtue_excerpt(34); ?> <a href="<?php the_permalink() ?>"><?php _e('READ MORE', 'virtue');?></a></p>
+		                          		<p><?php echo virtue_excerpt(34); ?> <a href="<?php the_permalink() ?>"><?php _e('Read more', 'virtue');?></a></p>
 		                        	</div>
 		                      		<footer>
 		                      		<?php do_action( 'kadence_post_mini_excerpt_footer' ); ?>

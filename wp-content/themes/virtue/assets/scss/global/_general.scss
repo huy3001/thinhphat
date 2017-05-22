@@ -8,6 +8,16 @@ a {
     color: $blue;
 }
 
+.entry-content {
+    a {
+        color: $blue;
+        @include transition();
+        &:hover {
+            color: $dark-blue;
+        }
+    }
+}
+
 .phone-call {
     position: fixed;
     bottom: 20px;

@@ -1078,7 +1078,7 @@ msgid "Latest from the Blog"
 msgstr ""
 
 #: templates/home/blog-home.php:140
-msgid "READ MORE"
+msgid "Read more"
 msgstr ""
 
 #: templates/home/portfolio-carousel.php:6

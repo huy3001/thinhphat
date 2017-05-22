@@ -42,7 +42,23 @@ a {
   color: #00bfff;
 }
 
-/* line 11, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
+/* line 12, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
+
+.entry-content a {
+  color: #00bfff;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 15, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
+
+.entry-content a:hover {
+  color: #2d5c88;
+}
+
+/* line 21, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/global/_general.scss */
 
 .phone-call {
   position: fixed;
@@ -371,30 +387,14 @@ header #nav-main ul.sf-menu a {
 
 /* Portfolio detail page styles */
 
-/* line 5, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
-
-.single-portfolio .entry-content a {
-  color: #00bfff;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-
-/* line 8, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
-
-.single-portfolio .entry-content a:hover {
-  color: #2d5c88;
-}
-
 @media only screen and (max-width: 767px) {
-  /* line 15, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
+  /* line 5, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
 
   .single-portfolio .portfolionav {
     display: none;
   }
 
-  /* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
+  /* line 8, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/page/_portfolio-detail.scss */
 
   .single-portfolio .entry-title {
     font-size: 30px;
