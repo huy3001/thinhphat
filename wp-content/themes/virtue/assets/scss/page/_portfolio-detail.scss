@@ -1,6 +1,16 @@
 /* Portfolio detail page styles */
 
 .single-portfolio {
+    .entry-content {
+        a {
+            color: $blue;
+            @include transition();
+            &:hover {
+                color: $dark-blue;
+            }
+        }
+    }
+
     @include bp(max-width, $tablet - 1) {
         .portfolionav {
             display: none;

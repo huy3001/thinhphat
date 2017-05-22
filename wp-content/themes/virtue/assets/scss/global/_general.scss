@@ -4,6 +4,10 @@ body {
     font-family: $f-family;
 }
 
+a {
+    color: $blue;
+}
+
 .phone-call {
     position: fixed;
     bottom: 20px;
