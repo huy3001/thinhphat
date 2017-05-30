@@ -15,6 +15,41 @@
             }
         },
 
+        portfolioSlider: function() {
+            var slider = $('.new-portfolio .portfolio-grid-list');
+            if(slider.length) {
+                slider.slick({
+                    autoplay: true,
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    responsive: [
+                        {
+                            breakpoint: 992,
+                            settings: {
+                                slidesToShow: 3,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 768,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        }
+                    ]
+                });
+            }
+        },
+
         menuFixed: function() {
             var menu = $('.header-nav'),
                 header = $('header.headerclass'),
@@ -36,6 +71,9 @@
     $(window).load(function() {
         // Portfolio height
         customJS.portfolioHeight();
+
+        // Portfolio slider
+        customJS.portfolioSlider();
 
         // Menu fixed
         customJS.menuFixed();

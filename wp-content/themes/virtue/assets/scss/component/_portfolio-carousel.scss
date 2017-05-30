@@ -15,8 +15,16 @@
         .portfoliolink {
             @include opacity(1);
         }
+        .piteminfo {
+            h5 {
+                font-size: 15px;
+                line-height: 1;
+                padding: 0;
+            }
+        }
         .cportfoliotag {
             font-size: 12px;
+            margin-top: 4px;
         }
     }
 }
@@ -29,5 +37,41 @@
             clear: both;
             display: table;
         }
+    }
+    .slick-slider {
+        &:hover {
+            .slick-prev,
+            .slick-next {
+                @include opacity(0.5);
+                &:hover {
+                    @include opacity(1);
+                }
+            }
+            .slick-prev {
+                left: 15px;
+            }
+            .slick-next {
+                right: 15px;
+            }
+        }
+    }
+    .slick-prev,
+    .slick-next {
+        background: url(../img/slide_direction.png) no-repeat 0 0;
+        width: 35px;
+        height: 75px;
+        z-index: 10;
+        @include opacity(0);
+        @include transition();
+        &:before {
+            display: none;
+        }
+    }
+    .slick-prev {
+        left: -35px;
+    }
+    .slick-next {
+        background-position: 100% 0;
+        right: -35px;
     }
 }

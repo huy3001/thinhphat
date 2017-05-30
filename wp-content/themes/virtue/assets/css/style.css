@@ -306,25 +306,99 @@ header #nav-main ul.sf-menu a {
   filter: alpha(opacity=100);
 }
 
-/* line 18, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+/* line 19, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-carousel .portfolio_item .piteminfo h5,
+#portfolio-list .portfolio_item .piteminfo h5 {
+  font-size: 15px;
+  line-height: 1;
+  padding: 0;
+}
+
+/* line 25, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-carousel .portfolio_item .cportfoliotag,
 #portfolio-list .portfolio_item .cportfoliotag {
   font-size: 12px;
+  margin-top: 4px;
 }
 
-/* line 25, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+/* line 33, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-list .portfolio-grid {
   margin-bottom: 30px;
 }
 
-/* line 27, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+/* line 35, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
 
 #portfolio-list .portfolio-grid:after {
   content: '';
   clear: both;
   display: table;
+}
+
+/* line 43, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-slider:hover .slick-prev,
+#portfolio-list .slick-slider:hover .slick-next {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+/* line 46, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-slider:hover .slick-prev:hover,
+#portfolio-list .slick-slider:hover .slick-next:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+/* line 50, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-slider:hover .slick-prev {
+  left: 15px;
+}
+
+/* line 53, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-slider:hover .slick-next {
+  right: 15px;
+}
+
+/* line 58, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-prev,
+#portfolio-list .slick-next {
+  background: url("../img/slide_direction.png") no-repeat 0 0;
+  width: 35px;
+  height: 75px;
+  z-index: 10;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+/* line 66, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-prev:before,
+#portfolio-list .slick-next:before {
+  display: none;
+}
+
+/* line 70, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-prev {
+  left: -35px;
+}
+
+/* line 73, d:/xampp/htdocs/thinhphat/wp-content/themes/virtue/assets/scss/component/_portfolio-carousel.scss */
+
+#portfolio-list .slick-next {
+  background-position: 100% 0;
+  right: -35px;
 }
 
 /* Portfolio grid styles */

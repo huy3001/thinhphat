@@ -62,9 +62,12 @@ add_action( 'wp_head', 'kadence_ie_support_header', 15 );
 function virtue_custom_scripts() {
 	/*============ Styles ============ */
 	wp_enqueue_style( 'styles',   get_template_directory_uri() . '/assets/css/style.css');
+	wp_enqueue_style( 'slick',   get_template_directory_uri() . '/assets/css/slick.css');
+	wp_enqueue_style( 'slick-theme',   get_template_directory_uri() . '/assets/css/slick-theme.css');
 
 	/*============ Javascript ============ */
 	wp_enqueue_script( 'imgcentering',   get_template_directory_uri() . '/assets/js/min/imgcentering.min.js',array('jquery'), '3.1.1', true);
+	wp_enqueue_script( 'slick',   get_template_directory_uri() . '/assets/js/min/slick.min.js',array('jquery'), '3.1.1', true);
 	wp_enqueue_script( 'custom',   get_template_directory_uri() . '/assets/js/custom.js',array('jquery'), '3.1.1', true);
 }
 

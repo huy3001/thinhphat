@@ -137,9 +137,15 @@
                 )
             );
             if ($wp_query) :
+                if($cat->slug == "san-pham-moi") {
+                echo '<div class="portfolio-grid new-portfolio">';
+                }
+                else {
                 echo '<div class="portfolio-grid">';
+                };
                 echo '<h3 class="hometitle">' . $cat->name . '</h3>';
 
+                echo '<div class="portfolio-grid-list">';
                 while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
                     <div class="<?php echo $itemsize; ?> kad_portfolio_item">
                         <div class="grid_item portfolio_item postclass">
@@ -174,7 +180,7 @@
                         </div>
                     </div>
                 <?php endwhile;
-                echo '</div>';
+                echo '</div></div>';
             else: ?>
                 <li class="error-not-found"><?php _e('Sorry, no portfolio entries found.', 'virtue'); ?></li>
             <?php endif;
